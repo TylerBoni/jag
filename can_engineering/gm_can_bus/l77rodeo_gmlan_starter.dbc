@@ -1,0 +1,128 @@
+VERSION "l77rodeo_gmlan_starter_2026-09-29"
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+
+BS_:
+
+BU_: ECM TCM GW UNKNOWN
+
+BO_ 199 GMLAN_0C7: 8 UNKNOWN
+
+BO_ 241 GMLAN_0F1: 8 UNKNOWN
+
+BO_ 409 GMLAN_199: 8 UNKNOWN
+
+BO_ 201 EngineStatus_0C9: 8 UNKNOWN
+
+BO_ 495 GMLAN_1EF: 8 UNKNOWN
+
+BO_ 401 GMLAN_191: 8 UNKNOWN
+
+BO_ 481 CruiseSwitch_1E1: 8 UNKNOWN
+
+BO_ 505 GMLAN_1F9: 8 UNKNOWN
+
+BO_ 413 GMLAN_19D: 8 UNKNOWN
+
+BO_ 249 TransmissionStatus_0F9: 8 UNKNOWN
+
+BO_ 501 TransmissionGear_1F5: 8 UNKNOWN
+ SG_ ShiftLeverPosition_observed : 24|8@1+ (1,0) [0|255] "" UNKNOWN
+
+BO_ 499 TransmissionSwitches_1F3: 8 UNKNOWN
+
+BO_ 493 GMLAN_1ED: 8 UNKNOWN
+
+BO_ 393 GMLAN_189: 8 UNKNOWN
+
+BO_ 904 GMLAN_388: 8 UNKNOWN
+
+BO_ 431 GMLAN_1AF: 8 UNKNOWN
+
+BO_ 896 GMLAN_380: 8 UNKNOWN
+
+BO_ 969 GMLAN_3C9: 8 UNKNOWN
+
+BO_ 640 GMLAN_280: 8 UNKNOWN
+
+BO_ 298 GMLAN_12A: 8 UNKNOWN
+
+BO_ 721 GMLAN_2D1: 8 UNKNOWN
+
+BO_ 451 GMLAN_1C3: 8 UNKNOWN
+
+BO_ 497 PowerMode_1F1: 8 UNKNOWN
+
+BO_ 417 GMLAN_1A1: 8 UNKNOWN
+
+BO_ 707 GMLAN_2C3: 8 UNKNOWN
+
+BO_ 1217 GMLAN_4C1: 8 UNKNOWN
+
+BO_ 1001 GMLAN_3E9: 8 UNKNOWN
+
+BO_ 752 GMLAN_2F0: 8 UNKNOWN
+
+BO_ 1009 GMLAN_3F1: 8 UNKNOWN
+
+BO_ 1019 GMLAN_3FB: 8 UNKNOWN
+
+BO_ 961 GMLAN_3C1: 8 UNKNOWN
+
+BO_ 1017 GMLAN_3F9: 8 UNKNOWN
+
+BO_ 977 GMLAN_3D1: 8 UNKNOWN
+
+BO_ 1905 GMLAN_771: 8 UNKNOWN
+
+BO_ 1233 GMLAN_4D1: 8 UNKNOWN
+
+BO_ 1225 GMLAN_4C9: 8 UNKNOWN
+
+BO_ 1249 GMLAN_4E1: 8 UNKNOWN
+
+BO_ 1300 GMLAN_514: 8 UNKNOWN
+
+BO_ 312 GMLAN_138: 8 UNKNOWN
+
+BO_ 304 GMLAN_130: 8 UNKNOWN
+
+BO_ 1257 PlatformConfig_4E9: 8 UNKNOWN
+
+BO_ 1322 GMLAN_52A: 8 UNKNOWN
+
+BO_ 1919 GMLAN_77F: 8 UNKNOWN
+
+BO_ 1906 GMLAN_772: 8 UNKNOWN
+
+BO_ 1649 GMLAN_671: 8 UNKNOWN
+
+BO_ 288 GMLAN_120: 8 UNKNOWN
+
+BO_ 1601 GMLAN_641: 8 UNKNOWN
+
+BO_ 1265 GMLAN_4F1: 8 UNKNOWN
+
+BO_ 577 GMLAN_241: 8 UNKNOWN
+
+BO_ 580 GMLAN_244: 8 UNKNOWN
+
+BO_ 1604 GMLAN_644: 8 UNKNOWN
+
+BO_ 1348 GMLAN_544: 8 UNKNOWN
+
+CM_ "Starter DBC generated from l77rodeo/gmlan README. Message presence/names are useful for SavvyCAN filtering. Except for the observed 1F5 PRNDL byte, signal bit positions/scaling are intentionally NOT invented. Verify DLC, senders, bit layout, scaling, counters, and checksums against your own E38/T43 capture.";
+CM_ BO_ 201 "Repository-listed contents: Accelerator actual position; Accelerator actual position validity; Engine run active; Engine speed; Engine speed status; Platform engine speed command inhibit request; Power takeoff powertrain run aborted; Powertrain brake pedal discrete input; Powertrain brake pedal discrete input validity; Powertrain crank aborted; Powertrain crank active; Powertrain run aborted; Remote vehicle start engine running; Cylinder deactivation mode; Engine idle active; Driver throttle override detected; Cruise control enabled; Cruise control active status.";
+CM_ BO_ 249 "Repository-listed contents: Transmission output shaft angular velocity; Transmission output shaft angular velocity sensor present; Transmission output shaft angular velocity validity; Transmission overall estimated torque ratio; Transmission overall estimated torque ratio validity.";
+CM_ BO_ 499 "Repository-listed contents: Overdrive disable requested; Platform transmission tap up/tap down enable switch state; Platform transmission tap up/tap down switch state; Platform transmission tap up/tap down switch status rolling count; Transmission oil life reset request; Transmission platform shift pattern switches 1-4 active; Transmission platform shift pattern switch alive rolling count.";
+CM_ BO_ 501 "Repository-listed contents: Automatic transmission commanded gear; Automatic transmission gear shift direction; Driver shift control request denied indicator on; Driver shift control target gear; Engine recommended upshift indicator on; Overdrive disable granted; Top of travel clutch switch active/validity; Transmission creep mode active; Transmission estimated gear/validity; Transmission range inhibit status; Transmission shift lever lock requested; Transmission shift lever position/validity; Transmission shift mode status; Transmission shift pattern active status; Transmission skip shift indicator on; Transmission tap up/tap down mode status.";
+CM_ BO_ 481 "Repository-listed contents: Cruise control cancel request; Cruise control switch status; Cruise control switch status alive rolling count; Cruise control switch status protection value.";
+CM_ BO_ 497 "Repository-listed contents: Display measurement system; Engine oil life reset request; Immobilizer pre-release password/status; Park brake switch active; Park brake virtual device availability; Power mode master accessory; Power mode master run/crank terminal status; PTO/remote-start master engine shutdown/start requests; Remote vehicle start request; System backup power mode/enabled; System power mode; Throttle progression request.";
+CM_ BO_ 1257 "Repository-listed contents: A/C compressor type; Elapsed time count/reset; ABS present; Platform engine speed command system type; Traction control system present; Vehicle speed control system type; Vehicle stability enhancement system present.";
+
+VAL_ 501 ShiftLeverPosition_observed 1 "Park" 2 "Reverse" 3 "Neutral" 4 "Drive/M6" 5 "M5" 6 "M4" 7 "M3" 8 "M2" 9 "M1";

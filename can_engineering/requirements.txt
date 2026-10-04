@@ -1,0 +1,4 @@
+python-can
+pyserial
+flask
+cantools

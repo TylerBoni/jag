@@ -1,0 +1,119 @@
+{
+  "format": "can-log-studio-view",
+  "version": 1,
+  "sessionId": "888ab41b-d34e-4858-8756-91b2c1f96346",
+  "files": {
+    "dbcs": [
+      {
+        "name": "07_denali_l92.dbc",
+        "scope": "all",
+        "storageKey": "888ab41b-d34e-4858-8756-91b2c1f96346:dbc:229cd968-f559-4eeb-9b96-3eaaf462d33d",
+        "handleKey": null
+      }
+    ],
+    "log": {
+      "name": "cruise.csv",
+      "storageKey": "888ab41b-d34e-4858-8756-91b2c1f96346:log:33143d4f-65f0-4c4a-aa5f-6cfb8452ca64",
+      "handleKey": null
+    },
+    "video": {
+      "name": "cruise.MOV",
+      "storageKey": "888ab41b-d34e-4858-8756-91b2c1f96346:video:47bbbfd9-30c2-46e3-bf08-a104e685e3fd",
+      "handleKey": null
+    }
+  },
+  "state": {
+    "derived": [
+      {
+        "id": 1,
+        "name": "ΔBrakePedalDiscrete_observed",
+        "unit": "",
+        "expr": "BrakePedalDiscrete_observed*100+100"
+      }
+    ],
+    "channels": [
+      {
+        "key": "0:481:CruiseSwitchStatus_observed",
+        "derived": false,
+        "bus": 0,
+        "id": 481,
+        "name": "CruiseSwitchStatus_observed",
+        "color": "#d62728"
+      },
+      {
+        "key": "0:201:CruiseActive_observed",
+        "derived": false,
+        "bus": 0,
+        "id": 201,
+        "name": "CruiseActive_observed",
+        "color": "#ff7f0e"
+      },
+      {
+        "key": "0:481:CruiseSwitchProtection_observed",
+        "derived": false,
+        "bus": 0,
+        "id": 481,
+        "name": "CruiseSwitchProtection_observed",
+        "color": "#17becf"
+      },
+      {
+        "key": "D:1",
+        "derived": true,
+        "name": "ΔBrakePedalDiscrete_observed",
+        "color": "#1f77b4"
+      },
+      {
+        "key": "0:201:EngineSpeed_observed",
+        "derived": false,
+        "bus": 0,
+        "id": 201,
+        "name": "EngineSpeed_observed",
+        "color": "#e377c2"
+      },
+      {
+        "key": "0:481:CruiseSwitchAliveCounter_observed",
+        "derived": false,
+        "bus": 0,
+        "id": 481,
+        "name": "CruiseSwitchAliveCounter_observed",
+        "color": "#9467bd"
+      }
+    ],
+    "view": [
+      0,
+      79.85663892178556
+    ],
+    "axisRanges": {
+      "·": [
+        -14.806735751295337,
+        270.7932642487047
+      ],
+      "rpm": [
+        463.60998272884285,
+        1777.929982728843
+      ]
+    },
+    "collapsedMsgs": [],
+    "offset": -4.9,
+    "scale": 1,
+    "syncPoints": [
+      {
+        "rawLog": 48.33184,
+        "videoTime": 37.4195
+      },
+      {
+        "rawLog": 49.778631,
+        "videoTime": 38.377645
+      },
+      {
+        "rawLog": 56.545106,
+        "videoTime": 43.786082
+      },
+      {
+        "rawLog": 70.666667,
+        "videoTime": 54.506458
+      }
+    ],
+    "videoTime": 12.631041
+  }
+}

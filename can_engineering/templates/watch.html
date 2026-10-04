@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>F-Type live signals</title>
+  <link rel="stylesheet" href="/static/watch.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">F-Type live</div>
+    <div class="meta" id="meta">connecting…</div>
+  </header>
+
+  <section class="cockpit" aria-label="Live driver controls">
+    <div class="dash-tile tach-tile">
+      <div class="tile-label">Engine</div>
+      <div class="tach-dial" id="tach-dial">
+        <div class="tach-needle"></div>
+        <div class="tach-hub"></div>
+        <div class="tach-readout">
+          <strong id="dash-rpm">800</strong>
+          <span>RPM</span>
+        </div>
+      </div>
+      <div class="tach-scale"><span>0</span><span>3.5</span><span>7</span></div>
+    </div>
+
+    <div class="dash-tile steering-tile">
+      <div class="tile-label">Steering</div>
+      <div class="wheel-wrap">
+        <div class="steering-wheel" id="steering-wheel">
+          <i class="wheel-spoke spoke-left"></i>
+          <i class="wheel-spoke spoke-right"></i>
+          <i class="wheel-spoke spoke-bottom"></i>
+          <b></b>
+        </div>
+        <div class="paddle paddle-down" id="paddle-down">−</div>
+        <div class="paddle paddle-up" id="paddle-up">+</div>
+      </div>
+      <strong class="dash-value" id="steering-value">Waiting…</strong>
+      <button class="dash-button" id="steering-zero" type="button">Set center</button>
+      <span class="dash-subvalue" id="paddle-value">Paddles not seen</span>
+    </div>
+
+    <div class="dash-tile throttle-tile">
+      <div class="tile-label">Throttle</div>
+      <div class="pedal-meter">
+        <div class="pedal-fill" id="throttle-fill"></div>
+        <div class="pedal-face"></div>
+      </div>
+      <strong class="dash-value" id="throttle-value">Waiting…</strong>
+    </div>
+
+    <div class="dash-tile shifter-tile">
+      <div class="tile-label">Shifter</div>
+      <div class="gear-display" id="gear-display">—</div>
+      <div class="gear-track" id="gear-track">
+        <span data-gear="P">P</span>
+        <span data-gear="R">R</span>
+        <span data-gear="N">N</span>
+        <span data-gear="D">D</span>
+        <span data-gear="S">S</span>
+      </div>
+      <span class="dash-subvalue" id="gear-detail">Waiting for gear status</span>
+    </div>
+  </section>
+
+  <section class="controls" id="controls">
+    <div class="controls-head">
+      <h1>Engine send</h1>
+      <label class="toggle">
+        <input type="checkbox" id="tx-enabled" />
+        <span>Sending</span>
+      </label>
+    </div>
+
+    <div class="control">
+      <div class="control-top">
+        <label for="rpm">Engine RPM</label>
+        <strong id="rpm-val">800</strong>
+      </div>
+      <input type="range" id="rpm" min="0" max="7000" step="50" value="800" />
+    </div>
+
+    <div class="control">
+      <div class="control-top">
+        <label for="gauge-byte">Temp gauge</label>
+        <strong id="gauge-val">0x4D5 byte 0 = 00</strong>
+      </div>
+      <select id="gauge-byte">
+        <option value="0">Byte 0</option>
+        <option value="1">Byte 1</option>
+        <option value="2">Byte 2</option>
+        <option value="3">Byte 3</option>
+        <option value="4">Byte 4</option>
+        <option value="5">Byte 5</option>
+        <option value="6">Byte 6</option>
+        <option value="7">Byte 7</option>
+      </select>
+      <input type="range" id="gauge-raw" min="0" max="255" step="1" value="0" />
+      <label class="toggle">
+        <input type="checkbox" id="gauge-sweep" />
+        <span>Sweep 00 then FF</span>
+      </label>
+      <p class="hint" id="gauge-hint">Watch the temperature needle.</p>
+    </div>
+
+    <div class="control">
+      <div class="control-top">
+        <label for="oil">Oil level</label>
+        <strong id="oil-val">Normal</strong>
+      </div>
+      <select id="oil">
+        <option value="0">Normal</option>
+        <option value="1">Low</option>
+        <option value="2">Critically low</option>
+        <option value="3">High</option>
+      </select>
+    </div>
+
+    <p class="controls-note" id="tx-note">TX ready</p>
+  </section>
+
+  <section class="card pinned" id="card-4d5">
+    <div class="card-head">
+      <div class="title-row">
+        <div class="title">Engine module</div>
+        <div class="id">0x4D5</div>
+      </div>
+      <div class="subtitle" id="d5-status">Waiting for 0x4D5…</div>
+      <div class="payload" id="d5-payload">—</div>
+    </div>
+    <div class="bytes" id="d5-bytes"></div>
+  </section>
+
+  <section class="card pinned" id="card-255">
+    <div class="card-head">
+      <div class="title-row">
+        <div class="title">Coolant candidate</div>
+        <div class="id">0x255</div>
+      </div>
+      <div class="subtitle" id="id255-status">Waiting for 0x255…</div>
+      <div class="payload" id="id255-payload">—</div>
+    </div>
+    <div class="signals">
+      <div class="sig">
+        <div class="sig-top">
+          <span class="sig-label">Mirrored value · bytes 5 / 7</span>
+          <span class="sig-text" id="id255-value">—</span>
+        </div>
+      </div>
+    </div>
+    <div class="control">
+      <div class="control-top">
+        <label for="id255-raw">TX mirrored raw value</label>
+        <strong id="id255-tx-value">0x43</strong>
+      </div>
+      <input type="range" id="id255-raw" min="0" max="255" step="1" value="67" />
+      <label class="toggle">
+        <input type="checkbox" id="id255-tx-enabled" />
+        <span>Transmit 0x255 only</span>
+      </label>
+      <p class="hint">Listening remains active when transmission is off.</p>
+    </div>
+    <div class="bytes" id="id255-bytes"></div>
+  </section>
+
+  <main id="grid" class="grid"></main>
+  <script src="/static/watch.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+# macOS / Windows
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Video
+*/video/
+
+# Editors / IDE
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# PlatformIO / embedded
+.pio/
+.pioenvs/
+.piolibdeps/
+.cache/
+compile_commands.json
+*.elf
+*.bin
+*.hex
+*.map
+
+# Visual Studio / MSVC leftovers
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Large local captures / installers (keep analysis assets, skip media)
+*.dmg
+*.pkg
+*.MOV
+*.mov
+*.mp4
+*.avi
+can_engineering/gm_can_bus/video/
