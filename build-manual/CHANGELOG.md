@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — 2026-11-21
+
+- Completed five-question owner interview; documented L92 still outside Jaguar, scanned/modelled engine bay, laser-cut/bent mounts, factory internal hardware, factory intake/fuel/ignition, RHP Truck Plus cam/springs, replacement timing and Michigan Motorsports VVT delete.
+- Recorded Corvette-style water pump/balancer, Jaguar alternator adapted to ICT low mount, G8 pump and ICT bracket, trimmed Jaguar reservoir return and modified -6 AN pressure line.
+- Flagged Jaguar-vs-Denali A/C description and pressure-line connection as unresolved; no new specifications or installation tests assumed.
+- Updated mechanical documentation, evidence, parts, issues and fabrication register.
+
 ## 0.1.0 — 2026-11-20
 
 - Initial structured manual added to existing `TylerBoni/jag` repo without modifying CAN or fuel-controller source.
