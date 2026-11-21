@@ -1,12 +1,17 @@
-# Fabrication register
+# Fabrication
 
-| Area | Required fabrication record | State |
-| --- | --- | --- |
-| Engine and transmission mounts | Engine bay scanned, LS placed in CAD, custom mounts laser-cut and bent. Need CAD, material, fasteners, load analysis and test fit | FABRICATION REPORTED; VALIDATION OPEN |
-| Oil pan / remote filter | Pan, pickup, ports, brackets, rated lines, support, thermal clearance, chafe protection and pressure test | OPEN |
-| Intake plumbing | Jaguar airbox arrangement, throttle transition, sensor orientation, cross sections, heat exposure and material compatibility | OPEN |
-| Exhaust | Header dimensions, stainless alloy, weld/purge procedure, V-band selection, tunnel clearance, vibration and heat shield | OPEN |
-| Power steering | Actual fittings/threads, line pressure and return routing, pump output and relief behavior | OPEN |
-| Cooling | Tube diameters and bead retention, pressure-rated fittings, expansion and bleed paths | OPEN |
+## Engine mounts
 
-For every final fabricated component record source drawing, revision, stock alloy/temper, process and consumables, measured dimensions, inspection results, photos, installation and interference testing. Printed adapters (ASA/ABS) are prototypes until heat/chemical/vibration service performance is demonstrated. Never substitute a generic AN flare for a banjo or inverted-flare connection based solely on approximate nominal size.
+I 3D scanned the F-Type engine bay, positioned an LS engine model in CAD, then designed custom motor mounts. The mounts were laser-cut and bent.
+
+CAD files, material details, dimensions and test-fit photos will be added here when available. The engine hasn't been installed in the car yet.
+
+## Power steering lines
+
+I kept the Jaguar reservoir, trimmed its return hose, cut the banjo fitting off the high-pressure line, and flared the line for a -6 AN connection to the G8 pump.
+
+The high-pressure connection needs a compatible flare/seat and a pressure/leak test before use.
+
+## Other fabrication
+
+Oil pan, intake plumbing, cooling pipes and exhaust details will be added with dimensions and photos as each setup is documented.
