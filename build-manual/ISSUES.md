@@ -13,4 +13,9 @@
 | HIGH | I-009 | Engine mounting/steering/exhaust | CAD/as-built dimensions, structural and hot-clearance review |
 | MEDIUM | I-010 | Complete BOM and costs | Photos, order history and vendor datasheets |
 | MEDIUM | I-011 | All installation torque specs | Exact manufacturer instructions + fastener state + sequence |
+| HIGH | I-013 | Flared Jaguar steering high-pressure line at -6 AN adapter | Verify flare type, tube/adapter mating seat, rated pressure, support and pressure/leak tests before operation |
+| HIGH | I-014 | Corvette balancer/water pump with Jaguar alternator, G8 PS and ICT brackets | Part numbers, measured pulley planes, belt alignment and clearance |
+| MEDIUM | I-015 | Engine mount CAD-to-as-built traceability | Scan, model, fabrication drawings, material, fasteners and test fit |
+| MEDIUM | I-016 | L92 core and valvetrain configuration | Casting IDs, cam card, spring specifications, lifters, timing and VVT kit details |
+| MEDIUM | I-017 | A/C compressor source conflict | Clarify Jaguar vs Denali and identify bracket PN |
 | MEDIUM | I-012 | CAN hardware reproducibility | Board and transceiver revision, baud rates, firmware hash, raw logs |
