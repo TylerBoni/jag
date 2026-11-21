@@ -1,31 +1,40 @@
-# Engine and packaging
+# Engine packaging, oil and cooling
 
-## Vehicle and donor
+The donor is a **2007 Yukon Denali L92 6.2L**. I'm retaining the Jaguar ZF8 automatic. The engine is still outside the car.
 
-- Vehicle: 2015 Jaguar F-Type base, original AJ126 3.0L supercharged V6; Jaguar ZF 8-speed retained as project intent.
-- Donor: 2007 GMC Yukon Denali L92 6.2L Gen IV aluminum V8, acquired for $1,300; approximately 272k donor miles recorded.
-- Target power: roughly 500–550 hp in project discussion, future forced induction contemplated. **No dyno or achieved output confirmed.**
+I scanned the F-Type engine bay, placed an LS model in CAD, and designed custom laser-cut and bent mounts. See the [engine configuration](engine-configuration.md) for the cam, accessories and other parts.
 
-## Engine configuration interview
+## Oil system
 
-The engine **remains outside the Jaguar**. The project includes a scanned engine bay and CAD-modeled LS placement, plus laser-cut/bent custom mounts. See [Engine configuration](engine-configuration.md) for the complete five-question interview, stock L92 hardware, RHP cam/springs, Corvette front drive, and accessory details. No in-vehicle fit validation is recorded.
+- **Pan:** Front-sump conversion. Weiand and Moroso components are referenced in the build; the exact final pan/pickup combination isn't documented here yet.
+- **Remote filter:** Weiand `5042WND` and Summit `G4983` are in the parts notes.
+- **Cranking pressure:** Approximately **20 psi** with the spark plugs removed.
 
-## Current build subjects
+Before running the engine, trace the oil flow through the adapter, lines and filter head, and check the filter bypass and pickup clearance. Cranking pressure alone doesn't confirm correct flow through every component.
 
-- **Oil pan and pickup:** Custom front-sump adaptation was discussed; notes reference both Weiand and Moroso. Confirm actual pan, pickup, screen-to-pan clearance, windage tray compatibility and fitting identification before issuing a final drawing.
-- **Remote oil filter:** Weiand `5042WND` and Summit `G4983` referenced. Both pan/adapter and filter head may be marked IN/OUT: trace verified source-to-filter-to-engine flow, not matching text labels blindly. Record actual flow evidence, filter bypass arrangement and line sizes.
-- **Lubrication:** TESTED approximately 20 psi on starter cranking without plugs; **not** certification of correct hot-pressure operation or oil to all bearings.
-- **VVT/camshaft:** VVT delete and cam change discussed. Final part numbers, cam timing and calibration remain unverified in this record.
-- **Water pump/accessories:** 2004 Corvette water-pump application referenced, with accessory offset changes to clear Jaguar chassis/sway bar. Measure pulley planes and belt clearance.
-- **Steering:** GM pump and Jaguar hydraulic lines/adapters under investigation; verify banjo/flare threads and pressure ratings on actual fittings.
-- **Cooling:** Record radiator inlet/outlet and degas connection, thermostat orientation, Jaguar expansion tank routing, fan logic, cooling purge and pressure testing.
-- **Intake:** Jaguar intake and MAF plumbing, throttle transitions, dual-branch lengths under design; printed ASA/ABS adapters are not automatically approved for final underhood use.
-- **Exhaust:** Headers, stainless tubing, resonators, V-bands and tunnel clearance under development.
+## Front drive
 
-## Unverified dimensional requirements
+- Corvette water pump and harmonic balancer
+- Jaguar alternator on an ICT Billet low mount with a custom adapter
+- Factory Denali A/C compressor on an ICT Billet bracket
+- G8 power steering pump on an ICT Billet bracket
 
-Engine mounts, flange alignment, driveline angles, sway-bar and rack clearances, hood clearance, remote line support, exhaust heat shields, expansion volume, coolant hose sizes, oil fill/dipstick length and total oil capacity must all be measured and recorded as built.
+I chose a different front accessory arrangement to improve clearance in the Jaguar engine bay. Final pulley alignment, belt routing and fitment measurements aren't documented yet.
 
-## Torque specification policy
+## Power steering
 
-**No bolt torques are claimed here.** Publish only sourced values tied to fastener identity, vehicle/engine application, bolt manufacturer, dry/lubricated condition, thread size and required staged/angle procedure. TTY bolts require documented replacement policy.
+I'm keeping the Jaguar reservoir and trimmed the return line. I removed the banjo fitting from the Jaguar pressure line and flared the tube for a -6 AN connection to the G8 pump.
+
+**Before pressurizing the system:** Confirm the flare and adapter seats match, use fittings rated for steering pressure, and pressure/leak-test the assembly.
+
+## Cooling
+
+The radiator, expansion tank, fan controls and hose routing still need to be written up as a complete procedure.
+
+## Intake and exhaust
+
+The stock L92 intake manifold and throttle body are retained. Jaguar air intake ducting, MAF placement and the exhaust connection are separate fabrication work.
+
+## Torque specs
+
+I'll add exact torque values alongside the parts and procedures they apply to. No substitute values are provided for unknown hardware.
