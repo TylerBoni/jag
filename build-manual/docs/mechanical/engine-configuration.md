@@ -1,13 +1,13 @@
 # L92 engine configuration — Section 1
 
-> **Evidence:** documented interview, five questions completed 2026-11-21. The documented build configuration is authoritative; installation and operational verification are tracked separately. See [Evidence ledger](../../EVIDENCE.md) and [open issues](../../ISSUES.md).
+> **Configuration source:** build interview, five questions completed 2026-11-21. The documented build configuration is authoritative; installation and operational verification are tracked separately. See [Evidence ledger](../../EVIDENCE.md) and [open issues](../../ISSUES.md).
 
 ## Build stage and CAD-based mounting
 
 - **Vehicle:** 2015 Jaguar F-Type base (X152), originally AJ126 supercharged V6 and Jaguar ZF8.
 - **Donor engine:** 2007 GMC Yukon Denali GM L92 6.2L V8 (previously documented acquisition cost $1,300 and approximately 272,000 donor miles).
 - **Installation:** L92 remains **outside the Jaguar**. Do not describe as engine-swapped, test-fitted or road-tested.
-- **Mount design:** Project includes **3D-scanning the engine compartment**, positioning a modeled LS engine within the scan, designing custom engine mounts in CAD, and having the mounts **laser-cut and bent**. The mounts have been fabricated; their physical fit and loading **not yet demonstrated**. Collect scan export, LS reference model, CAD files, dimensional drawing, material, thickness, fastener and tolerance records and test-fit photographs.
+- **Mount design:** Engine compartment **3D scanned**; LS engine modeled in the scanned bay; custom engine mounts **designed in CAD, laser-cut and bent**. Physical fit and loading **not yet demonstrated**. Collect scan export, LS reference model, CAD files, dimensional drawing, material, thickness, fastener and tolerance records and test-fit photographs.
 
 ## Internal engine configuration
 
@@ -44,7 +44,7 @@ Previous project discussions described Jaguar intake plumbing and MAF arrangemen
 | Water pump | Corvette configuration | Earlier conversation mentions 2004 Corvette application; current answer only confirms "Corvette". Exact PN and physical installation unknown |
 | Crankshaft balancer | Corvette configuration | Exact PN, pulley offset, bolt procedure, belt alignment and fit unknown |
 | Alternator | **Jaguar alternator**, adapted to **ICT Billet low-mount bracket** using custom adapter | Make/PN, bracket PN, adapter CAD/fasteners, electrical excitation and charging test unknown |
-| A/C compressor | **Factory Denali A/C compressor retained** (configuration correction, supersedes earlier Jaguar selection) | Exact compressor PN, condition, physically mounted status, line adaptation and cooling operation not verified |
+| A/C compressor | **Factory Denali A/C compressor retained** (supersedes earlier Jaguar selection) | Exact compressor PN, condition, physically mounted status, line adaptation and cooling operation not verified |
 | A/C bracket | ICT Billet bracket for Denali A/C compressor | Specific bracket PN, fit, pulley plane and installed state unknown |
 | Power steering pump | **G8 pump**, **ICT Billet bracket** | Exact pump/bracket PN and operating pressure/flow unverified |
 | Power steering reservoir | Jaguar reservoir retained; return hose trimmed | Routing, support, capacity, leak/heat evaluation outstanding |
