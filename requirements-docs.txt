@@ -1,0 +1,3 @@
+# Documentation website dependencies
+# Pin versions for reproducible GitHub Pages builds.
+mkdocs-material==9.8.2
