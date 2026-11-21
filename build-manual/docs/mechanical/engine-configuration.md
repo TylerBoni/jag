@@ -1,65 +1,44 @@
-# L92 engine configuration — Section 1
+# Engine configuration
 
-Configuration established from the five-question build interview on 2026-11-21. Statements supplied by the builder are documented as build facts. An item is marked **UNCONFIRMED** only when the documentation adds an inference or lacks a specific answer.
+I'm swapping a 6.2L L92 from a 2007 GMC Yukon Denali into my 2015 Jaguar F-Type V6. The engine cost $1,300 and had approximately 272,000 miles. It's currently out of the car while I prepare the swap.
 
-## Engine and mounting
+## Engine internals
 
-- **Vehicle:** 2015 Jaguar F-Type base (X152), originally AJ126 3.0L supercharged V6 with Jaguar ZF8 automatic.
-- **Donor:** 2007 GMC Yukon Denali, L92 6.2L Gen IV V8, acquired for $1,300, approximately 272,000 miles.
-- **Current stage:** L92 is **outside the Jaguar**.
-- **Engine bay:** 3D scanned, with an LS engine modeled in the scanned engine compartment.
-- **Motor mounts:** Custom designed in CAD, laser-cut and bent.
+The heads and rotating assembly are stock L92.
 
-## Engine internals and valvetrain
-
-| Component | Build specification |
+| Part | Setup |
 | --- | --- |
-| Cylinder heads | Original factory L92 |
-| Pistons | Original factory L92 |
-| Connecting rods | Original factory L92 |
-| Crankshaft | Original factory L92 |
+| Heads | Stock L92 |
+| Pistons, rods, crank | Stock L92 |
 | Camshaft | Richard Holdener Performance (RHP) Truck Plus |
-| Valve springs | RHP springs supplied with the camshaft |
-| Lifters | Unknown |
+| Valve springs | RHP springs supplied with the cam |
+| Lifters | Not documented |
 | Timing set | Replaced |
-| VVT delete | Generic Michigan Motorsports kit |
+| VVT delete | Michigan Motorsports kit |
+| Intake manifold | Stock L92 |
+| Throttle body | Stock L92 |
+| Injectors | Stock L92 |
+| Ignition coils | Stock L92 |
 
-**UNCONFIRMED:** Compression ratio has not been specified. Stock L92 internals alone do not establish that it has been measured. Exact part numbers not supplied are omitted rather than guessed.
+## Accessories
 
-## Intake, fuel and ignition
-
-| Component | Build specification |
-| --- | --- |
-| Intake manifold | Factory L92 truck |
-| Throttle body | Factory L92 |
-| Fuel injectors | Original L92 |
-| Ignition coils | Original L92 |
-
-Intake manifold and intake *ducting* are distinct systems. Jaguar intake ducting was discussed separately; it does not change the documented factory L92 intake manifold.
-
-## Accessories and steering
-
-| Component | Build specification |
+| Part | Setup |
 | --- | --- |
 | Water pump | Corvette |
-| Crankshaft balancer | Corvette |
-| Alternator | Jaguar alternator, custom adapter to ICT Billet low-mount bracket |
-| A/C compressor | Factory Denali compressor |
-| A/C bracket | ICT Billet |
-| Power steering pump | G8 pump, ICT Billet bracket |
-| Power steering reservoir | Jaguar reservoir |
-| Power steering return line | Jaguar return line trimmed |
-| Power steering high-pressure line | Jaguar banjo end cut off, line flared for -6 AN fitting to G8 pump |
+| Harmonic balancer | Corvette |
+| Alternator | Jaguar alternator with custom adapter to an ICT Billet low-mount bracket |
+| A/C compressor | Factory Denali compressor with ICT Billet bracket |
+| Power steering pump | G8 pump with ICT Billet bracket |
+| Power steering reservoir | Jaguar reservoir, retained |
+| Power steering return | Original line trimmed |
+| Power steering pressure line | Original banjo end removed, tube flared for a -6 AN fitting to the G8 pump |
 
-**UNCONFIRMED:** A previous conversation mentioned a *2004 Corvette* water-pump application, but the final interview specified only Corvette. No specific pump or balancer part number is asserted.
+The steering pressure-line conversion still needs a pressure and leak test. The flare and fitting must be compatible; -6 AN size alone doesn't establish that.
 
-### Safety-critical integration
+## Engine mounts
 
-The high-pressure steering line uses a modified flare connection. Before pressurizing it, confirm that the flare geometry, mating fitting, line and hose pressure ratings are compatible. A -6 AN nominal size alone does not establish an acceptable connection. Steering pressure/leak testing belongs in the [validation plan](../testing/validation-plan.md).
+I 3D scanned the engine bay and positioned an LS engine model in CAD. I designed custom engine mounts, then had them laser-cut and bent.
 
-## Related documentation
+The engine is not in the car yet, so final fitment isn't documented.
 
-- [Engine and packaging](engine-and-packaging.md)
-- [Fabrication register](../fabrication/fabrication.md)
-- [Parts and costs](../../PARTS.md)
-- [Open engineering issues](../../ISSUES.md)
+See [engine packaging](engine-and-packaging.md) for the oil system, cooling and clearance work, and [parts](../../PARTS.md) for the parts list.
