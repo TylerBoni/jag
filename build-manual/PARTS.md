@@ -16,7 +16,7 @@ Mentioned/purchased is not synonymous with installed. Unknown fields remain unkn
 | Timing and VVT | Replacement timing set; generic Michigan Motorsports VVT-delete kit | — | Owner reported; exact products unknown |
 | Harmonic balancer | Corvette-style | — | Owner reported; PN, offset and installation status unknown |
 | Alternator | Jaguar OEM; custom adapter to ICT Billet low mount | — | Owner reported; part IDs and testing outstanding |
-| A/C compressor/bracket | Jaguar compressor selected; ICT bracket described as for factory Denali A/C | — | Conflicting description, verify actual compressor and bracket |
+| A/C compressor/bracket | Factory Denali A/C compressor with ICT Billet bracket (corrected owner report) | — | Exact PNs, installed state, pulley alignment and refrigerant-line compatibility unknown |
 | Power steering | G8 pump with ICT bracket; Jaguar reservoir, trimmed return and -6 AN modified pressure line | — | Owner reported; hydraulic suitability not verified |
 | Engine mounts | Custom CAD, laser cut and bent | — | Owner reported fabrication; dimensions, material and physical test fit missing |
 
