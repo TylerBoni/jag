@@ -60,6 +60,7 @@ nav:
       - Parts and costs: PARTS.md
       - Changelog: CHANGELOG.md
   - Mechanical:
+      - Engine configuration: docs/mechanical/engine-configuration.md
       - Engine and packaging: docs/mechanical/engine-and-packaging.md
   - Electrical:
       - Interfaces and safety: docs/electrical/interfaces.md
