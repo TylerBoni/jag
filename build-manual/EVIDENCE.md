@@ -1,8 +1,8 @@
 # Evidence ledger
 
-Project configuration details supplied directly are authoritative build facts. Test results are recorded as observed; preserve raw traces and conditions when available. An established configuration does not imply installed, operational or safety-tested.
+Builder-specified configuration is authoritative. Mark an assertion **UNCONFIRMED** when it is inferred rather than supplied or measured. Record actual test outcomes separately from configuration. Preserve safety-critical test evidence.
 
-| ID | Classification | Observation | Limits / next evidence |
+| ID | Classification | Finding | Notes |
 | --- | --- | --- | --- |
 | E-001 | TESTED | Jaguar accelerator pedal worked with GM E38 | Exact E38 and Jaguar pin assignments, APP channels, sweep voltages, plausibility response missing |
 | E-002 | TESTED | Starter-only cranking without plugs produced ~20 psi indicated oil pressure | Instrument, cranking RPM, oil temperature, remote oil filter routing and hot pressure unknown |
@@ -11,10 +11,10 @@ Project configuration details supplied directly are authoritative build facts. T
 | E-005 | TESTED (bench) | Donor fuel-system bench recorded 57.9 psi | Test geometry and applicability to installed fuel system unknown |
 | E-006 | RESEARCH | E38 X1 cavities 27/28 suggested for CAN | Check exact ECM service/OS and harness drawings before connection |
 | E-007 | EXPERIMENTAL | CAN IDs `0x1E1`, `0x199`, `0xD0` considered for cruise/torque/throttle | Exact payload, scaling, vehicle/bus, checksums and interpretation not established |
-| E-008 | DESIGNED / FABRICATED | Engine remains outside Jaguar; 3D bay scan, LS CAD placement and laser-cut/bent custom mounts | CAD revision, material, dimensions, mounting strength and vehicle test fit absent |
-| E-009 | CONFIGURATION | Original L92 heads, pistons, rods, crankshaft, intake, throttle body, injectors and coils | Exact casting and part numbers not yet captured |
-| E-010 | CONFIGURATION | RHP Truck Plus cam and supplied valve springs; replaced timing set; generic Michigan Motorsports VVT delete; lifters unknown | Missing PNs, cam card and photos verifying installation |
-| E-011 | CONFIGURATION | Corvette pump and balancer; Jaguar alternator/ICT adapter; G8 PS pump/ICT bracket; Jaguar reservoir and modified -6 AN pressure line | Hardware ID, installation and pressure testing absent; configuration corrected to factory Denali A/C compressor with ICT bracket |
+| E-008 | DESIGNED / FABRICATED | Engine remains outside Jaguar; 3D bay scan, LS CAD placement and laser-cut/bent custom mounts | In-vehicle fit test not yet documented |
+| E-009 | CONFIGURATION | Original L92 heads, pistons, rods, crankshaft, intake, throttle body, injectors and coils | As specified in build interview |
+| E-010 | CONFIGURATION | RHP Truck Plus cam and supplied valve springs; replaced timing set; generic Michigan Motorsports VVT delete; lifters unknown | Lifters not specified |
+| E-011 | CONFIGURATION | Corvette pump and balancer; Jaguar alternator/ICT adapter; factory Denali A/C compressor with ICT bracket; G8 PS pump/ICT bracket; Jaguar reservoir and modified -6 AN pressure line | High-pressure steering connection requires a safety test |
 
 ## Required test entry
 
