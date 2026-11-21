@@ -35,9 +35,9 @@ A successful bench test is not evidence of road safety. Never infer connector ca
 
 ## Existing code in this repository
 
-- [CAN engineering tools](../can_engineering/)
-- [STM32 CAN Triple firmware](../CAN_Triple/)
-- [Fuel pump controller](../fuel_pump_controller/)
+- [CAN engineering tools](https://github.com/TylerBoni/jag/tree/master/can_engineering)
+- [STM32 CAN Triple firmware](https://github.com/TylerBoni/jag/tree/master/CAN_Triple)
+- [Fuel pump controller](https://github.com/TylerBoni/jag/tree/master/fuel_pump_controller)
 
 These links point to engineering projects, not necessarily validated in-vehicle production firmware. Record exact git SHA, firmware, wiring and calibration for each reproducible test.
 
