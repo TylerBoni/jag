@@ -26,7 +26,7 @@ The [jag repository](https://github.com/TylerBoni/jag) also contains [CAN engine
 
 | Classification | Interpretation |
 | --- | --- |
-| **TESTED** | Specific observable result with setup and limitations; historical reports are explicitly marked reported |
+| **TESTED** | Specific observable result with known setup and limitations; attach raw data when available |
 | **INSTALLED** | Present physically, but not yet validated |
 | **RESEARCH** | Externally sourced finding requiring independent verification |
 | **EXPERIMENTAL** | Proposed or investigated behavior without confirmed end-to-end result |
