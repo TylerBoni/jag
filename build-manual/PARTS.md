@@ -12,6 +12,14 @@ Mentioned/purchased is not synonymous with installed. Unknown fields remain unkn
 | Pan and pickup | Weiand and Moroso references | — | Exact combination and part numbers OPEN |
 | Filter candidate | Wix `51060XP` | — | Considered only; compatibility/bypass not verified |
 
+| Camshaft and springs | Richard Holdener Performance Truck Plus cam; RHP springs supplied | — | Owner reported; PNs/specification and installed state unverified |
+| Timing and VVT | Replacement timing set; generic Michigan Motorsports VVT-delete kit | — | Owner reported; exact products unknown |
+| Harmonic balancer | Corvette-style | — | Owner reported; PN, offset and installation status unknown |
+| Alternator | Jaguar OEM; custom adapter to ICT Billet low mount | — | Owner reported; part IDs and testing outstanding |
+| A/C compressor/bracket | Jaguar compressor selected; ICT bracket described as for factory Denali A/C | — | Conflicting description, verify actual compressor and bracket |
+| Power steering | G8 pump with ICT bracket; Jaguar reservoir, trimmed return and -6 AN modified pressure line | — | Owner reported; hydraulic suitability not verified |
+| Engine mounts | Custom CAD, laser cut and bent | — | Owner reported fabrication; dimensions, material and physical test fit missing |
+
 **Documented known acquisition subtotal: $1,300.** Not a complete project total.
 
 For each additional entry, collect purchase date, vendor, product page, exact SKU, revision, quantity, tax/shipping, installed location, test status and photograph.
