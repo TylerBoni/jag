@@ -1,6 +1,6 @@
 # CAN protocol and experiments
 
-This repository includes [can_engineering](../../../can_engineering/) and [CAN_Triple](../../../CAN_Triple/) projects. These are source artifacts, not automatically validated vehicle-level specifications. Archive relevant commit SHAs before describing a reproducible firmware build.
+This repository includes [can_engineering](https://github.com/TylerBoni/jag/tree/master/can_engineering) and [CAN_Triple](https://github.com/TylerBoni/jag/tree/master/CAN_Triple) projects. These are source artifacts, not automatically validated vehicle-level specifications. Archive relevant commit SHAs before describing a reproducible firmware build.
 
 ## Recorded IDs and their limits
 
