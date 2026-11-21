@@ -1,27 +1,29 @@
-# GM E38 ECU calibration
+# GM E38 ECU
 
-## Current state
+I'm running the L92 with a **GM E38 ECM**. The build uses an RHP Truck Plus cam and a Michigan Motorsports VVT delete.
 
-- ECM family: GM E38; exact service number, operating system, VIN, tune source and checksums **OPEN**.
-- Engine: donor L92 Gen IV 6.2L. Discussed changes include VVT delete, cam swap, intake MAF placement and wideband.
-- VATS disabling reported in earlier project discussions; verify current calibration readback.
-- Fueling without stock MAF or oxygen sensors has been proposed; it is **not** documented here as running, validated or acceptable for road use.
-- Transmission torque communication and starting handshake require separate evidence.
+## Current setup
 
-## Calibration register
+- GM E38 ECM
+- L92 6.2L
+- Stock L92 intake, injectors, throttle body and ignition coils
+- VATS disabled
+- VVT hardware deleted
+- Jaguar accelerator pedal works with the ECM
 
-| Item | Recorded value | Classification |
-| --- | --- | --- |
-| ECM hardware/service PN | Unknown | OPEN |
-| ECU OS / calibration IDs | Unknown | OPEN |
-| Stock binary and SHA256 hash | Not archived | OPEN |
-| VATS state | Reported disabled | Reported; confirm readback |
-| Camshaft / VVT delete | Under development | OPEN |
-| Injector PN and flow/offset data | Unknown | OPEN |
-| MAF/VE/speed density strategy | Under consideration | EXPERIMENTAL |
-| O2 and wideband hardware/calibration | Not documented | OPEN |
-| Fuel, spark, knock, torque and temp logs | Not archived | OPEN |
+## Calibration details to add
 
-## Validation
+| Item | Value |
+| --- | --- |
+| ECM service number | — |
+| Operating system / calibration ID | — |
+| Original tune backup | — |
+| Injector calibration | — |
+| MAF / speed density setup | — |
+| Oxygen sensor / wideband setup | — |
+| Fan control | — |
+| Transmission torque-control setup | — |
 
-Before enabling sustained running, validate crank/cam sync, fuel pressure and regulator behavior, oil pressure, injector/coil power, sensor plausibility, commanded/actual throttle and load calculations. Record idle and transient AFR, trims if applicable, knock, cooling, DTCs and transmission torque messages, using a verified wideband. Test failures and rollback logic must be documented. Save original calibration and hashes before changes.
+The engine has not been documented running in the car.
+
+Before sustained running I'll log fuel pressure, oil pressure, throttle behavior, AFR, knock, temperatures and DTCs. Save the original ECU read before tuning changes.
