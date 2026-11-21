@@ -1,25 +1,31 @@
-# Jaguar and GM E38 electrical interfaces
+# Wiring and electrical
 
-> **SAFETY CRITICAL:** Wire color alone does not identify a circuit. Verify both connector cavity and conductor continuity with the correct year/trim service documentation before applying 12 V or ground. Protect power feeds and prove fail-off states.
+I'm using a **GM E38 ECM** with the Jaguar wiring and electronics.
 
-| Interface | Status | Evidence and missing steps |
-| --- | --- | --- |
-| Jaguar accelerator pedal to E38 | TESTED (reported) | Pedal reportedly works; capture complete pin/cavity map, dual sweep voltages, correlation and failure response |
-| Brake | TESTED (reported measurement), signal meaning OPEN | Approximately 1.5 V held when brake applied and 12 V pulses at transitions reported; oscilloscope trace, loads and logic still needed |
-| Orange/black wire | TESTED (reported effect), circuit OPEN | Ground changed starting-related behavior; DO NOT infer groundable wire or park input without connector/cavity and electrical identity |
-| Starter | EXPERIMENTAL | Jaguar native control vs independent intelligent starter controller; relay polarity, brake/PRNDL, 10–15s timeout and run detection to be specified/tested, not presumed |
-| E38 CAN | RESEARCH | X1 cavities 27/28 mentioned; verify exact service ECM and wiring before connection |
-| OBD-II | OPEN | Define DLC power, ground, high/low pins, protection and bus arrangement from verified diagrams |
-| Alternator | OPEN | Regulator strategy and Jaguar charging/BCM integration |
-| A/C | OPEN | Compressor, request logic, pressure switches, fuse size and control strategy |
-| Fuel pump | TESTED (reported bench), installed validation OPEN | Bench 57.9 psi reported; see [fuel pump firmware](https://github.com/TylerBoni/jag/tree/master/fuel_pump_controller) and confirm pinout/current/failsafes |
+## What works so far
 
-## Pin map template
+| Circuit | Result |
+| --- | --- |
+| Accelerator pedal | Jaguar pedal works with the E38 |
+| Brake signal | Measured about 1.5 V with brake applied and short 12 V pulses at transitions |
+| Start-related input | Grounding an orange/black wire changed the E38 starting behavior |
+| Fuel pump bench | Measured 57.9 psi using the donor fuel-pump control setup |
 
-| Module | Connector/cavity | Circuit direction | Wire color | Voltage/state/load | Verification | Status |
-| --- | --- | --- | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD | TBD | TBD | OPEN |
+The exact start-input connector pin and CAN payload aren't documented yet. **Do not ground a wire just because its color matches.** Identify the circuit and connector cavity first.
 
-## Start interlocks
+## Still working on
 
-An E38 or external starter controller must refuse crank unless transmission state is independently proven Park/Neutral and other required brake/start conditions are met. Stop on engine-running confirmation, elapsed max crank interval, loss of valid inputs and emergency stop. Validate stuck inputs, shorts to battery/ground and CAN timeout. Never interpret successful starter engagement as an acceptable safety strategy.
+- Starter control and Park/Neutral interlock
+- Complete Jaguar-to-E38 pin map
+- OBD-II wiring
+- Jaguar alternator charging control
+- Denali A/C compressor control
+- Fuel-pump wiring and fail-safe behavior in the car
+
+E38 CAN connections at **X1 pins 27/28** came up during research; those pins are **unconfirmed for this harness** and aren't a wiring instruction.
+
+## Starter safety
+
+Starter operation must be inhibited outside Park/Neutral, stop when the engine is running, and time out if the engine doesn't start. Loss of a required signal must disable cranking.
+
+See the [CAN experiments](../can/protocol-and-experiments.md) and [testing plan](../testing/validation-plan.md).
