@@ -8,6 +8,8 @@
 
 2015 Jaguar F-Type base (X152), originally AJ126 3.0L supercharged V6 and ZF 8-speed automatic, converted to GM Gen IV L92 6.2L V8 with GM E38 ECM. Intended to preserve the Jaguar ZF8 and OEM functions where feasible. This manual documents measurements, hardware, reverse engineering, fabrication, calibration, and validation needed for reproducibility.
 
+Builder statements define the build configuration. Only assistant-inferred or unknown specifications receive **UNCONFIRMED** labels. Installation and operational tests are documented separately; safety-critical controls still require validation.
+
 ## Evidence rules
 
 | Tag | Meaning |
