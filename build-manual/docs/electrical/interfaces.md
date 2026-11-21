@@ -12,7 +12,7 @@
 | OBD-II | OPEN | Define DLC power, ground, high/low pins, protection and bus arrangement from verified diagrams |
 | Alternator | OPEN | Regulator strategy and Jaguar charging/BCM integration |
 | A/C | OPEN | Compressor, request logic, pressure switches, fuse size and control strategy |
-| Fuel pump | TESTED (reported bench), installed validation OPEN | Bench 57.9 psi reported; see [fuel pump firmware](../../../fuel_pump_controller/) and confirm pinout/current/failsafes |
+| Fuel pump | TESTED (reported bench), installed validation OPEN | Bench 57.9 psi reported; see [fuel pump firmware](https://github.com/TylerBoni/jag/tree/master/fuel_pump_controller) and confirm pinout/current/failsafes |
 
 ## Pin map template
 
