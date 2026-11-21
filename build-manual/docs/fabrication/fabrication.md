@@ -2,7 +2,7 @@
 
 | Area | Required fabrication record | State |
 | --- | --- | --- |
-| Engine and transmission mounts | CAD revision, material and fastener grades, weld design, load path, driveline alignment and clearance under torque | OPEN |
+| Engine and transmission mounts | Owner reports bay scanned, LS placed in CAD, mounts laser-cut/bent. Need CAD, material, fasteners, load analysis and test fit | FABRICATION REPORTED; VALIDATION OPEN |
 | Oil pan / remote filter | Pan, pickup, ports, brackets, rated lines, support, thermal clearance, chafe protection and pressure test | OPEN |
 | Intake plumbing | Jaguar airbox arrangement, throttle transition, sensor orientation, cross sections, heat exposure and material compatibility | OPEN |
 | Exhaust | Header dimensions, stainless alloy, weld/purge procedure, V-band selection, tunnel clearance, vibration and heat shield | OPEN |
