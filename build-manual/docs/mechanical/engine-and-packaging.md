@@ -6,6 +6,10 @@
 - Donor: 2007 GMC Yukon Denali L92 6.2L Gen IV aluminum V8, acquired for $1,300; approximately 272k donor miles reported.
 - Target power: roughly 500–550 hp in project discussion, future forced induction contemplated. **No dyno or achieved output confirmed.**
 
+## Engine configuration interview
+
+The engine **remains outside the Jaguar**. The owner reports a scanned engine bay and CAD-modeled LS placement, plus laser-cut/bent custom mounts. See [Engine configuration](engine-configuration.md) for the complete five-question interview, stock L92 hardware, RHP cam/springs, Corvette front drive, and accessory details. No in-vehicle fit validation is reported.
+
 ## Current build subjects
 
 - **Oil pan and pickup:** Custom front-sump adaptation was discussed; notes reference both Weiand and Moroso. Confirm actual pan, pickup, screen-to-pan clearance, windage tray compatibility and fitting identification before issuing a final drawing.
