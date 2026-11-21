@@ -1,0 +1,75 @@
+site_name: Jaguar F-Type L92 Swap Manual
+site_description: Reproducible engineering documentation for a 2015 Jaguar F-Type L92 6.2L swap
+site_url: https://tylerboni.github.io/jag/
+repo_url: https://github.com/TylerBoni/jag
+repo_name: TylerBoni/jag
+edit_uri: edit/master/build-manual/
+docs_dir: build-manual
+site_dir: site
+copyright: "Project documentation — verify all safety-critical procedures against physical measurements and primary sources."
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search:
+      lang: en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Manual & evidence:
+      - Introduction and scope: README.md
+      - Evidence ledger: EVIDENCE.md
+      - Open issues: ISSUES.md
+      - Parts and costs: PARTS.md
+      - Changelog: CHANGELOG.md
+  - Mechanical:
+      - Engine and packaging: docs/mechanical/engine-and-packaging.md
+  - Electrical:
+      - Interfaces and safety: docs/electrical/interfaces.md
+  - CAN bus:
+      - Protocol and experiments: docs/can/protocol-and-experiments.md
+  - ECU:
+      - E38 calibration: docs/ecu/e38-calibration.md
+  - Fabrication:
+      - Fabrication register: docs/fabrication/fabrication.md
+  - Testing:
+      - Validation plan: docs/testing/validation-plan.md
+  - Website:
+      - Publishing and maintenance: docs/site-guide.md
