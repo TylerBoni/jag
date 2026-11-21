@@ -1,59 +1,41 @@
-# 2015 Jaguar F-Type — L92 6.2L LS Swap Engineering Manual
+# Jaguar F-Type L92 Swap
 
-> **Status:** Living engineering record, incomplete. Not an approved end-to-end or road-safe conversion procedure.
->
-> **Revision:** 0.1.0 · **Baseline:** 2026-11-20
+I'm swapping a GM L92 6.2L V8 into a **2015 Jaguar F-Type V6 (X152)**, keeping the Jaguar ZF8 automatic transmission. This repo documents the parts, fabrication, wiring, CAN bus work and testing as I go.
 
-## Scope
+**Build status:** Engine preparation and integration work are in progress. The L92 is still outside the car.
 
-2015 Jaguar F-Type base (X152), originally AJ126 3.0L supercharged V6 and ZF 8-speed automatic, converted to GM Gen IV L92 6.2L V8 with GM E38 ECM. Intended to preserve the Jaguar ZF8 and OEM functions where feasible. This manual documents measurements, hardware, reverse engineering, fabrication, calibration, and validation needed for reproducibility.
+## Manual
 
-Builder statements define the build configuration. Only assistant-inferred or unknown specifications receive **UNCONFIRMED** labels. Installation and operational tests are documented separately; safety-critical controls still require validation.
-
-## Evidence rules
-
-| Tag | Meaning |
-| --- | --- |
-| **TESTED** | Tested on this project, with observed result and known conditions; retain any available raw logs |
-| **INSTALLED** | Physically installed, but not yet validated |
-| **RESEARCH** | External reference; link primary source and verify applicability |
-| **EXPERIMENTAL** | Working theory or unproven technique; define a falsifiable test |
-| **OPEN** | Missing or unresolved information |
-
-A successful bench test is not evidence of road safety. Never infer connector cavities, software versions, wire functions, torque settings, CAN bytes or specifications from engine family or wire color alone.
-
-## Index
-
-- [Evidence ledger](EVIDENCE.md)
-- [Parts and costs](PARTS.md)
-- [Open issues](ISSUES.md)
-- [Changelog](CHANGELOG.md)
-- [Engine and packaging](docs/mechanical/engine-and-packaging.md)
-- [Electrical interfaces](docs/electrical/interfaces.md)
-- [CAN protocol and experiments](docs/can/protocol-and-experiments.md)
-- [E38 calibration](docs/ecu/e38-calibration.md)
+- [Engine configuration](docs/mechanical/engine-configuration.md)
+- [Engine packaging, oil and cooling](docs/mechanical/engine-and-packaging.md)
+- [Electrical wiring](docs/electrical/interfaces.md)
+- [CAN bus](docs/can/protocol-and-experiments.md)
+- [GM E38 calibration](docs/ecu/e38-calibration.md)
 - [Fabrication](docs/fabrication/fabrication.md)
-- [Safety and validation plan](docs/testing/validation-plan.md)
+- [Parts and costs](PARTS.md)
+- [Testing](docs/testing/validation-plan.md)
+- [Open problems](ISSUES.md)
+- [Changelog](CHANGELOG.md)
 
-## Existing code in this repository
+## Code
 
-- [CAN engineering tools](https://github.com/TylerBoni/jag/tree/master/can_engineering)
+This repository also contains the tools I've used for reverse engineering:
+
+- [CAN engineering scripts](https://github.com/TylerBoni/jag/tree/master/can_engineering)
 - [STM32 CAN Triple firmware](https://github.com/TylerBoni/jag/tree/master/CAN_Triple)
-- [Fuel pump controller](https://github.com/TylerBoni/jag/tree/master/fuel_pump_controller)
+- [Arduino fuel pump controller](https://github.com/TylerBoni/jag/tree/master/fuel_pump_controller)
 
-These links point to engineering projects, not necessarily validated in-vehicle production firmware. Record exact git SHA, firmware, wiring and calibration for each reproducible test.
+## What I've tested
 
-## Known observations — bounded conclusions
+- The Jaguar accelerator pedal works with the GM E38.
+- I measured approximately **20 psi oil pressure** while cranking with the spark plugs removed.
+- Grounding the orange/black wire changed the E38 starting behavior. The exact circuit and CAN start message still need to be documented before this becomes a wiring procedure.
+- My STM32 interface transmitted **56 frames on CAN ID `0x1F1`** with no reported drops. That log confirms transmission, not the E38's response.
 
-1. **TESTED:** Jaguar accelerator pedal functioned with the E38. Dual APP sweep, safety faults, and full harness pin map still OPEN.
-2. **TESTED:** Approximately **20 psi** indicated with starter cranking and spark plugs removed. This does **not** prove complete remote filter oil routing, healthy hot oil pressure, or bearing condition.
-3. **TESTED:** Grounding an **orange/black wire** enabled some E38 start-related behavior with one transmitted signal. Exact connector/cavity, circuit identity, CAN bytes and interlock logic remain OPEN. **Do not ground unidentified wires.**
-4. **TESTED (transmitter log):** A replay sent **56 CAN frames on ID `0x1F1`**, reporting `REPLAY DONE sent=56 drop=0`. This does **not** prove ECM reception or authorization.
+These are results of individual tests, not proof that the entire swap is ready to drive.
 
-## Change workflow
+## Using this guide
 
-Every significant discovery updates its subsystem file, [EVIDENCE.md](EVIDENCE.md), [ISSUES.md](ISSUES.md) and [CHANGELOG.md](CHANGELOG.md). Store raw logs with timestamp, bitrate, hardware/firmware commit, calibration hash, conditions, observations and pass/fail criteria. Do not upgrade experimental ideas to proven procedures without recorded tests.
+Anything described as installed or tested refers to something I've actually completed. Work in progress is identified where it matters. I don't include guessed pinouts, torque specs, CAN payloads or part numbers.
 
-## Safety
-
-Powertrain controls must enforce Park/Neutral, brake and starter interlocks, starter crank timeout, engine-running inhibit, throttle plausibility, powertrain torque coordination, fused power feeds, emergency shutoff and fail-off behavior. Validate at power-off and ignition-on before fuel, spark, or road movement. Never drive based on startup alone.
+**Safety:** Check starter Park/Neutral interlocks, throttle fault behavior, fuel and oil systems, brakes and transmission control before attempting to drive the car. Never ground an unidentified wire based only on its color.
