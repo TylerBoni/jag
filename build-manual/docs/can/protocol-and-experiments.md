@@ -1,19 +1,23 @@
-# CAN protocol and experiments
+# CAN bus
 
-This repository includes [can_engineering](https://github.com/TylerBoni/jag/tree/master/can_engineering) and [CAN_Triple](https://github.com/TylerBoni/jag/tree/master/CAN_Triple) projects. These are source artifacts, not automatically validated vehicle-level specifications. Archive relevant commit SHAs before describing a reproducible firmware build.
+I'm using an STM32/CAN Triple setup to investigate the Jaguar electronics and GM E38 integration.
 
-## Recorded IDs and their limits
+Code: [CAN engineering tools](https://github.com/TylerBoni/jag/tree/master/can_engineering) · [STM32 firmware](https://github.com/TylerBoni/jag/tree/master/CAN_Triple)
 
-| ID | Context | Status |
-| --- | --- | --- |
-| `0x1F1` | E38 cold-start replay experiment; 56 frames acknowledged by transmit interface | TESTED TX, ECM interpretation OPEN |
-| `0x1E1` | Cruise switch protection, two-bit counter discussed | EXPERIMENTAL / details not verified |
-| `0x199` | Torque-reduction experiment | EXPERIMENTAL |
-| `0x0D0` | Throttle position interpretation discussed | EXPERIMENTAL |
+## CAN IDs
 
-## Reproducible transmit record
+| ID | What I've been investigating |
+| --- | --- |
+| `0x1F1` | E38 start-related replay; 56 frames successfully transmitted |
+| `0x1E1` | Cruise-switch counter (experimental) |
+| `0x199` | Torque-reduction message (experimental) |
+| `0x0D0` | Throttle-position interpretation (experimental) |
 
-Reported command:
+The last three aren't confirmed decoded message definitions.
+
+## Start replay test
+
+I ran:
 
 ```bash
 python3 -u scripts/replay_cold_start.py \
@@ -22,7 +26,7 @@ python3 -u scripts/replay_cold_start.py \
   --port /dev/cu.usbmodem102 --verbose
 ```
 
-Observed tool output included:
+Result:
 
 ```text
 loaded 56 data frames + end marker
@@ -32,12 +36,10 @@ REPLAY DONE sent=56 drop=0
 complete: 56 data frames sent; board reported DONE
 ```
 
-**This proves the interface reported successful transmission of selected frames, not the ECM's response or a necessary/sufficient start command.** The capture contents and timing must be preserved before claiming an exact payload.
+This confirms that the STM32 sent the frames without reported drops. It **doesn't** by itself confirm how the E38 responded.
 
-## Capture specification
+## What a complete message write-up needs
 
-Every captured/replayed record must state: bus name, physical connector pins, CAN bitrate, 11/29-bit ID, timestamp, data length, exact 8 data bytes or CAN-FD equivalent, direction, power/ignition state, engine state, ECU OS/tune ID, replay source hash, hardware transceiver, firmware commit and an independent receive trace. Note checksum/counter rules only after validated differential captures.
+For each confirmed message I'll include the CAN bus and speed, ID, payload, timing, counters/checksums, capture file, firmware revision and observed result. I won't publish guessed payload bytes as a working command.
 
-## Safety
-
-Use isolated/bench networks for exploratory transmission whenever possible. Transmitting arbitrary IDs on a live vehicle bus can trigger engine torque commands, unsafe transmission states, ABS/ESC faults or starter activity. Do not replay unknown frames while driveline motion is possible.
+**Safety:** Replay unknown messages on a bench or isolated bus. Starter, transmission and torque-control messages can have unintended effects on a live vehicle.
