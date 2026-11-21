@@ -44,8 +44,8 @@ Previous project discussions described Jaguar intake plumbing and MAF arrangemen
 | Water pump | Corvette configuration | Earlier conversation mentions 2004 Corvette application; current answer only confirms "Corvette". Exact PN and physical installation unknown |
 | Crankshaft balancer | Corvette configuration | Exact PN, pulley offset, bolt procedure, belt alignment and fit unknown |
 | Alternator | **Jaguar alternator**, adapted to **ICT Billet low-mount bracket** using custom adapter | Make/PN, bracket PN, adapter CAD/fasteners, electrical excitation and charging test unknown |
-| A/C compressor | **Jaguar compressor selected** | Owner also wrote "ICT Billet brackets for AC (factory Denali)". Compressor source and bracket application **ambiguous — must clarify before finalizing** |
-| A/C bracket | ICT Billet, described with "factory Denali" | Specific bracket PN, compressor mounting pattern, pulley plane and installed state unknown |
+| A/C compressor | **Factory Denali A/C compressor retained** (owner correction, supersedes earlier Jaguar selection) | Exact compressor PN, condition, physically mounted status, line adaptation and cooling operation not verified |
+| A/C bracket | ICT Billet bracket for Denali A/C compressor (owner-reported) | Specific bracket PN, fit, pulley plane and installed state unknown |
 | Power steering pump | **G8 pump**, **ICT Billet bracket** | Exact pump/bracket PN and operating pressure/flow unverified |
 | Power steering reservoir | Jaguar reservoir retained; return hose reportedly trimmed | Routing, support, capacity, leak/heat evaluation outstanding |
 | High-pressure PS line | Jaguar banjo end cut off; tube flared and adapted for **-6 AN** connection to G8 pump | **Safety critical:** exact flare standard/seat, adapter fitting, tube material, hose pressure rating, pressure relief behavior and leak test not verified |
@@ -57,7 +57,7 @@ Previous project discussions described Jaguar intake plumbing and MAF arrangemen
 1. Photograph each component label and casting number, and record exact vendor PN and purchase invoice.
 2. Provide engine-bay 3D scan, CAD engine model source, mount DXFs, bend drawing, material thickness, and mount fasteners.
 3. Confirm timing set, cam card, RHP spring details and Michigan Motorsports delete kit.
-4. Resolve Jaguar-vs-Denali A/C compressor reference and identify all ICT bracket products.
+4. Identify factory Denali A/C compressor PN, ICT bracket PNs and physical installation status, then verify alignment and refrigerant-line compatibility.
 5. Confirm which accessory parts are physically mounted on the standalone engine, versus purchased or intended.
 6. Document balancer/pulley plane and belt lengths with measured coordinates.
 7. Validate steering-line flare type, pressure requirements and fitting compatibility before pressurization.
