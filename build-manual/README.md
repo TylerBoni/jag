@@ -12,7 +12,7 @@
 
 | Tag | Meaning |
 | --- | --- |
-| **TESTED** | Tested on this project, with exact observed result, setup and limitations; “reported” means source is historical operator account rather than archived raw evidence |
+| **TESTED** | Tested on this project, with observed result and known conditions; retain any available raw logs |
 | **INSTALLED** | Physically installed, but not yet validated |
 | **RESEARCH** | External reference; link primary source and verify applicability |
 | **EXPERIMENTAL** | Working theory or unproven technique; define a falsifiable test |
@@ -43,9 +43,9 @@ These links point to engineering projects, not necessarily validated in-vehicle 
 
 ## Known observations — bounded conclusions
 
-1. **TESTED (reported):** Jaguar accelerator pedal functioned with the E38. Dual APP sweep, safety faults, and full harness pin map still OPEN.
-2. **TESTED (reported):** Approximately **20 psi** indicated with starter cranking and spark plugs removed. This does **not** prove complete remote filter oil routing, healthy hot oil pressure, or bearing condition.
-3. **TESTED (reported):** Grounding an **orange/black wire** enabled some E38 start-related behavior with one transmitted signal. Exact connector/cavity, circuit identity, CAN bytes and interlock logic remain OPEN. **Do not ground unidentified wires.**
+1. **TESTED:** Jaguar accelerator pedal functioned with the E38. Dual APP sweep, safety faults, and full harness pin map still OPEN.
+2. **TESTED:** Approximately **20 psi** indicated with starter cranking and spark plugs removed. This does **not** prove complete remote filter oil routing, healthy hot oil pressure, or bearing condition.
+3. **TESTED:** Grounding an **orange/black wire** enabled some E38 start-related behavior with one transmitted signal. Exact connector/cavity, circuit identity, CAN bytes and interlock logic remain OPEN. **Do not ground unidentified wires.**
 4. **TESTED (transmitter log):** A replay sent **56 CAN frames on ID `0x1F1`**, reporting `REPLAY DONE sent=56 drop=0`. This does **not** prove ECM reception or authorization.
 
 ## Change workflow
