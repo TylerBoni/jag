@@ -17,5 +17,5 @@
 | HIGH | I-014 | Corvette balancer/water pump with Jaguar alternator, G8 PS and ICT brackets | Part numbers, measured pulley planes, belt alignment and clearance |
 | MEDIUM | I-015 | Engine mount CAD-to-as-built traceability | Scan, model, fabrication drawings, material, fasteners and test fit |
 | MEDIUM | I-016 | L92 core and valvetrain configuration | Casting IDs, cam card, spring specifications, lifters, timing and VVT kit details |
-| MEDIUM | I-017 | Denali A/C compressor integration details | Owner confirmed factory Denali compressor; identify compressor and ICT bracket PNs, pulley alignment, hose connections and installation/testing state |
+| MEDIUM | I-017 | Denali A/C compressor integration details | Configured with factory Denali compressor; identify compressor and ICT bracket PNs, pulley alignment, hose connections and installation/testing state |
 | MEDIUM | I-012 | CAN hardware reproducibility | Board and transceiver revision, baud rates, firmware hash, raw logs |
