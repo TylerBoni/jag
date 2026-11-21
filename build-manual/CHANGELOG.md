@@ -2,6 +2,8 @@
 
 ## Unreleased — 2026-11-21
 
+- Simplified Section 1 documentation: removed verification-gap columns and routine requests to reverify builder-specified facts. Use **UNCONFIRMED** only for assistant inferences or unsupplied specifications; safety-critical testing remains documented separately.
+
 - Documentation policy updated: user-specified build configuration is authoritative. Installation, testing and unresolved verification remain explicitly separate; removed unnecessary provenance qualifiers.
 
 - Completed five-question build configuration interview; documented L92 still outside Jaguar, scanned/modelled engine bay, laser-cut/bent mounts, factory internal hardware, factory intake/fuel/ignition, RHP Truck Plus cam/springs, replacement timing and Michigan Motorsports VVT delete.
