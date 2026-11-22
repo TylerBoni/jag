@@ -35,6 +35,10 @@ The radiator, expansion tank, fan controls and hose routing still need to be wri
 
 The stock L92 intake manifold and throttle body are retained. Jaguar air intake ducting, MAF placement and the exhaust connection are separate fabrication work.
 
+## Exhaust
+
+I selected [304 stainless LS swap shorty headers with V-band collectors](https://www.amazon.com/dp/B0FSSYLB5T?tag=tylerboni-20). Final exhaust routing and fitment are not documented yet.
+
 ## Torque specs
 
 I'll add exact torque values alongside the parts and procedures they apply to. No substitute values are provided for unknown hardware.
