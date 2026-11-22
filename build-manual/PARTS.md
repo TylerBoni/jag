@@ -15,7 +15,7 @@ Some links are Amazon affiliate links. As an Amazon Associate I earn from qualif
 | VVT delete | Michigan Motorsports | — |
 | Intake, throttle body, injectors, coils | Stock L92 | — |
 | Water pump | Corvette | — |
-| Harmonic balancer | Corvette | — |
+| Harmonic balancer | [ACDelco / GM 12560115 crankshaft balancer](https://www.amazon.com/dp/B0049Z6VQE?tag=tylerboni-20) · ASIN `B0049Z6VQE` | — |
 | Alternator | Jaguar, custom adapter, ICT Billet low mount | — |
 | A/C compressor | Factory Denali, ICT Billet bracket | — |
 | Power steering | [G8 pump](https://link.amazon/B00oKIggv), ICT Billet bracket, Jaguar reservoir | — |
@@ -26,6 +26,11 @@ Some links are Amazon affiliate links. As an Amazon Associate I earn from qualif
 | Remote filter kit | Summit `G4983` | — |
 | Oil pan | [Oil pan](https://link.amazon/B0cl38x4S) | — |
 | Oil pickup | [Oil pickup](https://link.amazon/B02EmzpKV) | — |
+
+## New affiliate links awaiting product names
+
+- [ASIN B097XJYB2B](https://www.amazon.com/dp/B097XJYB2B?tag=tylerboni-20)
+- [ASIN B0G3Q5LF2C](https://www.amazon.com/dp/B0G3Q5LF2C?tag=tylerboni-20)
 
 ## Additional affiliate links
 
@@ -39,7 +44,7 @@ These links still need part names before I can put them in the right section of 
 ## Parts still being identified
 
 - The oil pan and pickup are linked above; exact manufacturer/part numbers have not been entered.
-- Crank bolt: GM `12560115` was researched, but its final use hasn't been recorded.
+- The previously listed GM `12560115` reference is a crankshaft balancer, not a crank bolt. The balancer is linked above.
 - Oil filter: Wix `51060XP` was considered but compatibility hasn't been established.
 
 **Recorded total: $1,300.** This is only the sum of parts with prices entered, not the total swap cost.
