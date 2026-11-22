@@ -8,7 +8,6 @@ I scanned the F-Type engine bay, placed an LS model in CAD, and designed custom 
 
 - **Oil pan:** [Moroso 20146 front-sump swap pan](https://link.amazon/B0cl38x4S). I tried the Weiand pan, but it doesn't clear the F-Type subframe.
 - **Oil pickup:** [Moroso 24052 pickup](https://link.amazon/B02EmzpKV).
-- **Remote filter adapter:** Included with the Moroso pan (part number not recorded). The adapter is **not** Weiand `5042WND`.
 - **Remote filter mount:** Summit `G4983`.
 - **Cranking pressure:** Approximately **20 psi** with the spark plugs removed.
 
