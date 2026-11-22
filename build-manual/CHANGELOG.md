@@ -2,6 +2,8 @@
 
 ## 2026-11-21
 
+- Added three more affiliate ASINs. Identified B0049Z6VQE as the ACDelco/GM 12560115 crankshaft balancer; B097XJYB2B and B0G3Q5LF2C await product names. Corrected the older reference that mistakenly described 12560115 as a crank bolt.
+
 - Added affiliate parts links for stainless shorty LS headers and the Michigan Motorsports 1-to-3 bolt cam gear conversion kit.
 
 - Added Htostar Racing silver honeycomb LS valve covers to the parts list with the supplied Amazon affiliate link.
