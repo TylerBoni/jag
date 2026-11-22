@@ -14,6 +14,7 @@ The heads and rotating assembly are stock L92.
 | Valve springs | RHP springs supplied with the cam |
 | Lifters | Not documented |
 | Timing set | Replaced |
+| Cam gear conversion | [Michigan Motorsports 1-bolt to 3-bolt kit with ARP bolts](https://www.amazon.com/dp/B07Q5V8GYW?tag=tylerboni-20) |
 | VVT delete | Michigan Motorsports kit |
 | Intake manifold | Stock L92 |
 | Throttle body | Stock L92 |
