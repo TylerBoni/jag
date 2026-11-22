@@ -11,6 +11,7 @@ Some links are Amazon affiliate links. As an Amazon Associate I earn from qualif
 | Valve springs | RHP springs supplied with cam | — |
 | Valve covers | [Htostar Racing cast-aluminum LS valve covers, silver honeycomb with coil mounts](https://www.amazon.com/dp/B0FNQWZT4J?tag=tylerboni-20) · ASIN `B0FNQWZT4J` | — |
 | Timing set | Replacement | — |
+| Cam gear conversion | [Michigan Motorsports 1-bolt to 3-bolt kit, 58X, with ARP cam bolts](https://www.amazon.com/dp/B07Q5V8GYW?tag=tylerboni-20) · ASIN `B07Q5V8GYW` | — |
 | VVT delete | Michigan Motorsports | — |
 | Intake, throttle body, injectors, coils | Stock L92 | — |
 | Water pump | Corvette | — |
@@ -20,6 +21,7 @@ Some links are Amazon affiliate links. As an Amazon Associate I earn from qualif
 | Power steering | [G8 pump](https://link.amazon/B00oKIggv), ICT Billet bracket, Jaguar reservoir | — |
 | Steering hose | Jaguar pressure tube modified for -6 AN, return trimmed | — |
 | Engine mounts | Custom laser-cut and bent | — |
+| Exhaust headers | [304 stainless LS swap shorty headers, V-band collectors, gaskets and bolts](https://www.amazon.com/dp/B0FSSYLB5T?tag=tylerboni-20) · ASIN `B0FSSYLB5T` | — |
 | Remote oil filter adapter | Weiand `5042WND` | — |
 | Remote filter kit | Summit `G4983` | — |
 | Oil pan | [Oil pan](https://link.amazon/B0cl38x4S) | — |
