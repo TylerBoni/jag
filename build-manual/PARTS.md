@@ -22,14 +22,14 @@ Some links are Amazon affiliate links. As an Amazon Associate I earn from qualif
 | Steering hose | Jaguar pressure tube modified for -6 AN, return trimmed | — | — |
 | Engine mounts | Custom laser-cut and bent | — | — |
 | Exhaust headers | [304 stainless LS swap shorty headers, V-band collectors, gaskets and bolts](https://www.amazon.com/dp/B0FSSYLB5T?tag=tylerboni-20) | — | — |
-| Remote oil filter adapter | Weiand `5042WND` | — | — |
+| Remote oil filter adapter | Included with Moroso 20146 pan (part number not recorded) | Included | — |
 | Remote filter kit | Summit `G4983` | — | — |
 | Oil pan | [Moroso 20146 front-sump swap oil pan](https://link.amazon/B0cl38x4S) | — | [$499.99](https://90racing.com/products/moroso-20146) |
 | Oil pickup | [Moroso 24052 oil pump pickup](https://link.amazon/B02EmzpKV) | — | [$138.99](https://business.walmart.com/ip/Moroso-24052-Oil-Pump-Pickup/791684308) |
 
 ## Parts still being identified
 
-- Oil pan and pickup identified as Moroso 20146 and Moroso 24052.
+- The Moroso 20146 includes the remote oil filter adapter. The Weiand pan did not clear the Jaguar subframe.
 - The previously listed GM `12560115` reference is a crankshaft balancer, not a crank bolt. The balancer is linked above.
 - Oil filter: Wix `51060XP` was considered but compatibility hasn't been established.
 
