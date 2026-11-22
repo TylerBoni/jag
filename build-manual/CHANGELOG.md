@@ -2,6 +2,8 @@
 
 ## 2026-11-21
 
+- Added Htostar Racing silver honeycomb LS valve covers to the parts list with the supplied Amazon affiliate link.
+
 - Added Amazon affiliate links for the oil pan, oil pickup and G8 power steering pump, plus four links awaiting part names.
 
 - Added the L92 engine configuration, including the RHP Truck Plus cam, stock internals and accessories.
