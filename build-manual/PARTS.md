@@ -29,8 +29,6 @@ Some links are Amazon affiliate links. As an Amazon Associate I earn from qualif
 
 ## New affiliate links awaiting product names
 
-- [ASIN B097XJYB2B](https://www.amazon.com/dp/B097XJYB2B?tag=tylerboni-20) — not yet matched to an exact product
-- [ASIN B0G3Q5LF2C](https://www.amazon.com/dp/B0G3Q5LF2C?tag=tylerboni-20) — not yet matched to an exact product
 
 ## Additional affiliate links
 
