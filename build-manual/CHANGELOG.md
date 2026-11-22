@@ -2,6 +2,8 @@
 
 ## 2026-11-21
 
+- Added Amazon affiliate links for the oil pan, oil pickup and G8 power steering pump, plus four links awaiting part names.
+
 - Added the L92 engine configuration, including the RHP Truck Plus cam, stock internals and accessories.
 - Documented the 3D-scanned engine bay and custom laser-cut/bent motor mounts.
 - Recorded the Corvette water pump and balancer, Jaguar alternator, Denali A/C compressor and G8 power steering setup.
