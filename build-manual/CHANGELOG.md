@@ -2,6 +2,8 @@
 
 ## 2026-11-21
 
+- Identified the oil pan as Moroso 20146 and pickup as Moroso 24052 from purchase screenshots; updated the existing affiliate part links.
+
 - Added three more affiliate ASINs. Identified B0049Z6VQE as the ACDelco/GM 12560115 crankshaft balancer; B097XJYB2B and B0G3Q5LF2C await product names. Corrected the older reference that mistakenly described 12560115 as a crank bolt.
 
 - Added affiliate parts links for stainless shorty LS headers and the Michigan Motorsports 1-to-3 bolt cam gear conversion kit.
