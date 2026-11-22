@@ -2,6 +2,8 @@
 
 ## 2026-11-21
 
+- Added affiliate parts links for stainless shorty LS headers and the Michigan Motorsports 1-to-3 bolt cam gear conversion kit.
+
 - Added Htostar Racing silver honeycomb LS valve covers to the parts list with the supplied Amazon affiliate link.
 
 - Added Amazon affiliate links for the oil pan, oil pickup and G8 power steering pump, plus four links awaiting part names.
