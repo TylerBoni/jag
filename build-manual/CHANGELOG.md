@@ -2,6 +2,8 @@
 
 ## 2026-11-21
 
+- Confirmed the Weiand oil pan does not clear the Jaguar subframe. The Moroso 20146 pan includes its own remote oil filter adapter; removed the incorrectly attributed Weiand adapter.
+
 - Removed visible Amazon ASIN identifiers from the public parts table. Added dated, sourced retail-reference prices for the Moroso pan and pickup, cam conversion kit, and GM balancer; kept paid costs separate.
 
 - Identified the oil pan as Moroso 20146 and pickup as Moroso 24052 from purchase screenshots; updated the existing affiliate part links.
