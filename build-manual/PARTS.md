@@ -24,13 +24,13 @@ Some links are Amazon affiliate links. As an Amazon Associate I earn from qualif
 | Exhaust headers | [304 stainless LS swap shorty headers, V-band collectors, gaskets and bolts](https://www.amazon.com/dp/B0FSSYLB5T?tag=tylerboni-20) · ASIN `B0FSSYLB5T` | — |
 | Remote oil filter adapter | Weiand `5042WND` | — |
 | Remote filter kit | Summit `G4983` | — |
-| Oil pan | [Oil pan](https://link.amazon/B0cl38x4S) | — |
-| Oil pickup | [Oil pickup](https://link.amazon/B02EmzpKV) | — |
+| Oil pan | [Moroso 20146 front-sump swap oil pan](https://link.amazon/B0cl38x4S) | — |
+| Oil pickup | [Moroso 24052 oil pump pickup](https://link.amazon/B02EmzpKV) | — |
 
 ## New affiliate links awaiting product names
 
-- [ASIN B097XJYB2B](https://www.amazon.com/dp/B097XJYB2B?tag=tylerboni-20)
-- [ASIN B0G3Q5LF2C](https://www.amazon.com/dp/B0G3Q5LF2C?tag=tylerboni-20)
+- [ASIN B097XJYB2B](https://www.amazon.com/dp/B097XJYB2B?tag=tylerboni-20) — not yet matched to an exact product
+- [ASIN B0G3Q5LF2C](https://www.amazon.com/dp/B0G3Q5LF2C?tag=tylerboni-20) — not yet matched to an exact product
 
 ## Additional affiliate links
 
@@ -43,7 +43,7 @@ These links still need part names before I can put them in the right section of 
 
 ## Parts still being identified
 
-- The oil pan and pickup are linked above; exact manufacturer/part numbers have not been entered.
+- Oil pan and pickup identified as Moroso 20146 and Moroso 24052.
 - The previously listed GM `12560115` reference is a crankshaft balancer, not a crank bolt. The balancer is linked above.
 - Oil filter: Wix `51060XP` was considered but compatibility hasn't been established.
 
