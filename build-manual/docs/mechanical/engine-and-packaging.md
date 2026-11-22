@@ -6,7 +6,8 @@ I scanned the F-Type engine bay, placed an LS model in CAD, and designed custom 
 
 ## Oil system
 
-- **Pan:** Front-sump conversion. Weiand and Moroso components are referenced in the build; the exact final pan/pickup combination isn't documented here yet.
+- **Oil pan:** [Moroso 20146 front-sump swap pan](https://link.amazon/B0cl38x4S).
+- **Oil pickup:** [Moroso 24052 pickup](https://link.amazon/B02EmzpKV).
 - **Remote filter:** Weiand `5042WND` and Summit `G4983` are in the parts notes.
 - **Cranking pressure:** Approximately **20 psi** with the spark plugs removed.
 
