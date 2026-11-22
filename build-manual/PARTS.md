@@ -9,6 +9,7 @@ Some links are Amazon affiliate links. As an Amazon Associate I earn from qualif
 | Donor engine | 2007 GMC Yukon Denali L92 6.2L, ~272,000 miles | $1,300 |
 | Camshaft | Richard Holdener Performance Truck Plus | — |
 | Valve springs | RHP springs supplied with cam | — |
+| Valve covers | [Htostar Racing cast-aluminum LS valve covers, silver honeycomb with coil mounts](https://www.amazon.com/dp/B0FNQWZT4J?tag=tylerboni-20) · ASIN `B0FNQWZT4J` | — |
 | Timing set | Replacement | — |
 | VVT delete | Michigan Motorsports | — |
 | Intake, throttle body, injectors, coils | Stock L92 | — |
