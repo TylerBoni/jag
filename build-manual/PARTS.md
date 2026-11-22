@@ -27,15 +27,6 @@ Some links are Amazon affiliate links. As an Amazon Associate I earn from qualif
 | Oil pan | [Moroso 20146 front-sump swap oil pan](https://link.amazon/B0cl38x4S) | — | [$499.99](https://90racing.com/products/moroso-20146) |
 | Oil pickup | [Moroso 24052 oil pump pickup](https://link.amazon/B02EmzpKV) | — | [$138.99](https://business.walmart.com/ip/Moroso-24052-Oil-Pump-Pickup/791684308) |
 
-## Additional affiliate links
-
-These links still need part names before I can put them in the right section of the guide.
-
-- [Part to identify 1](https://link.amazon/B02dNPoZD)
-- [Part to identify 2](https://link.amazon/B0g87QOhX)
-- [Part to identify 3](https://link.amazon/B0hFQH5rX)
-- [Part to identify 4](https://link.amazon/B0golinM1)
-
 ## Parts still being identified
 
 - Oil pan and pickup identified as Moroso 20146 and Moroso 24052.
