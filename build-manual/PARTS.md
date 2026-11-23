@@ -128,4 +128,4 @@ The order history confirms purchase. Installation, fitment, and test results req
 | [FOXBC 64½ × ½-in 14 TPI bi-metal bandsaw blade](https://www.amazon.com/dp/B09GGDBW9X?tag=tylerboni-20) | $16.99 |
 | [YESWELDER ER70S-6 mild steel TIG filler, 3/32 in](https://www.amazon.com/dp/B09YTJL2TJ?tag=tylerboni-20) | $32.99 |
 
-**Documented purchase subtotal: $5,003.31** Includes the donor engine and all priced entries above. The export does not show subsequent returns or refunds.
+**Documented purchase subtotal: $5,003.31.** Includes the donor engine and all priced entries above. The export does not show subsequent returns or refunds.
