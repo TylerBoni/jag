@@ -1,6 +1,6 @@
 # Parts and costs
 
-Parts documented for the F-Type L92 swap, plus related purchases and shop tools. **Paid** comes from the Amazon order history where available and reflects quantity and listed item discounts, before tax and shipping. **Retail reference** prices were checked on November 21, 2026.
+Parts documented for the F-Type L92 swap, plus related purchases and shop tools. **Paid** comes from order records where available and reflects quantity and listed item discounts, before tax and shipping. **Retail reference** prices were checked on November 21, 2026.
 
 Some links are Amazon affiliate links. As an Amazon Associate I earn from qualifying purchases.
 
@@ -16,9 +16,12 @@ Some links are Amazon affiliate links. As an Amazon Associate I earn from qualif
 | Intake, throttle body, injectors, coils | Stock L92 | — | — |
 | Water pump | [A-Premium Corvette-style water pump with gasket](https://www.amazon.com/dp/B097XJYB2B?tag=tylerboni-20) | $89.29 | — |
 | Harmonic balancer | [GM Genuine Parts 12560115 crankshaft balancer](https://www.amazon.com/dp/B0049Z6VQE?tag=tylerboni-20) | $118.99 | [$165.99](https://www.autozone.com/p/acdelco-engine-harmonic-balancer-12560115/62197) |
-| Alternator | Jaguar, custom adapter, ICT Billet low mount | — | — |
-| A/C compressor | Factory Denali, ICT Billet bracket | — | — |
-| Power steering | [AISIN PSPGM-00434 Pontiac G8 power steering pump with pulley](https://www.amazon.com/dp/B0G3Q5LF2C?tag=tylerboni-20), ICT Billet bracket, Jaguar reservoir | $119.99 | — |
+| Alternator | Jaguar, custom adapter | — | — |
+| Alternator bracket | [ICT Billet low-mount LS alternator bracket with G8 idler](https://ictbillet.com/products/ls3-alternator-bracket-complete-idler-pulley-g8-ss-caprice-factory-lsx-billet?variant=46047863668966), Corvette spacing | $120.00 | — |
+| A/C compressor | Factory Denali | — | — |
+| A/C bracket | [ICT Billet LSA truck Denso 10 A/C bracket](https://ictbillet.com/products/ls-corvette-factory-location-a-c-compressor-bracket-1?variant=47267522085094), Corvette spacing | $300.00 | — |
+| Power steering | [AISIN PSPGM-00434 Pontiac G8 power steering pump with pulley](https://www.amazon.com/dp/B0G3Q5LF2C?tag=tylerboni-20), Jaguar reservoir | $119.99 | — |
+| Power steering bracket | [ICT Billet LS bracket for G8 and Caprice pumps](https://ictbillet.com/products/ls-g8-caprice-power-steering-bracket-kit-ls2-ls3-l76-l77-l98?variant=46047863701734), Corvette spacing | $120.00 | — |
 | Steering hose | Jaguar pressure tube modified for -6 AN, return trimmed | — | — |
 | Engine mounts | Custom laser-cut and bent | — | — |
 | Exhaust headers | [304 stainless LS swap shorty headers, V-band collectors, gaskets and bolts](https://www.amazon.com/dp/B0FSSYLB5T?tag=tylerboni-20) | — | — |
@@ -128,4 +131,4 @@ The order history confirms purchase. Installation, fitment, and test results req
 | [FOXBC 64½ × ½-in 14 TPI bi-metal bandsaw blade](https://www.amazon.com/dp/B09GGDBW9X?tag=tylerboni-20) | $16.99 |
 | [YESWELDER ER70S-6 mild steel TIG filler, 3/32 in](https://www.amazon.com/dp/B09YTJL2TJ?tag=tylerboni-20) | $32.99 |
 
-**Documented purchase subtotal: $5,003.31.** Includes the donor engine and all priced entries above. The export does not show subsequent returns or refunds.
+**Documented purchase subtotal: $5,543.31.** Includes the donor engine and all priced entries above. The subtotal excludes package protection. Order records may omit subsequent returns or refunds.

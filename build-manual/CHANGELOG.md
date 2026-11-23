@@ -2,6 +2,8 @@
 
 ## 2026-11-23
 
+- Added the three ICT Billet Corvette-spacing accessory brackets with product links and prices paid.
+
 - Removed the TIG welder and pre-swap Jaguar purchases from the LS swap parts guide and recalculated the purchase subtotal.
 
 ## 2026-11-22
