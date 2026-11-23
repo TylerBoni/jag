@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-22
+
+- Added Amazon order-history prices and affiliate links for swap parts, tools, fabrication supplies, and original Jaguar purchases. Recorded purchase-only entries separately from the documented build configuration.
+
 ## 2026-11-21
 
 - Confirmed the Weiand oil pan does not clear the Jaguar subframe. The Moroso 20146 pan includes its own remote oil filter adapter; removed the incorrectly attributed Weiand adapter.
