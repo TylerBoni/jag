@@ -111,7 +111,6 @@ The order history confirms purchase. Installation, fitment, and test results req
 | [LS engine lift plate](https://www.amazon.com/dp/B09J4BBCL3?tag=tylerboni-20) | $31.80 |
 | [BETOOLL 0–100 psi fuel pressure test kit](https://www.amazon.com/dp/B07LF26ZTJ?tag=tylerboni-20) | $30.49 |
 | [Simple Green Industrial Cleaner and Degreaser](https://www.amazon.com/dp/B0000AXNO5?tag=tylerboni-20) | $9.98 |
-| [Sunstac 250 A AC/DC TIG welder](https://www.amazon.com/dp/B0CNQQBZNW?tag=tylerboni-20) | $379.99 |
 | [RX WELD CGA580 argon regulator and hose](https://www.amazon.com/dp/B08P5BNHBX?tag=tylerboni-20) | $28.99 |
 | [SEEBOO 551141 LS harmonic balancer installation tool](https://www.amazon.com/dp/B08ZYRCNFY?tag=tylerboni-20) | $12.99 |
 | [Woosphy 25264 LS harmonic balancer puller](https://www.amazon.com/dp/B0CC5LZ3T7?tag=tylerboni-20) | $24.80 |
@@ -129,20 +128,4 @@ The order history confirms purchase. Installation, fitment, and test results req
 | [FOXBC 64½ × ½-in 14 TPI bi-metal bandsaw blade](https://www.amazon.com/dp/B09GGDBW9X?tag=tylerboni-20) | $16.99 |
 | [YESWELDER ER70S-6 mild steel TIG filler, 3/32 in](https://www.amazon.com/dp/B09YTJL2TJ?tag=tylerboni-20) | $32.99 |
 
-### Original Jaguar and vehicle purchases
-
-| Product | Paid |
-| --- | ---: |
-| [Anker PowerDrive III Duo USB-C car charger](https://www.amazon.com/dp/B0843SCLYH?tag=tylerboni-20) | $16.14 |
-| [UTMALL Jaguar/Land Rover injector puller](https://www.amazon.com/dp/B07DSBTC6K?tag=tylerboni-20) | $23.99 |
-| [ZKTOOL 310-197 fuel injector puller](https://www.amazon.com/dp/B0DPCL5Q39?tag=tylerboni-20) | $59.99 |
-| [BG 44K Platinum fuel system cleaner](https://www.amazon.com/dp/B07PXCTPV7?tag=tylerboni-20) | $22.50 |
-| [Jaguar/Land Rover fuel injector seal kit](https://www.amazon.com/dp/B0DJR5Z7M2?tag=tylerboni-20) | $16.99 |
-| [ARKOSKNIGHT red start/stop button cover](https://www.amazon.com/dp/B0BC5VY6D5?tag=tylerboni-20) | $16.99 |
-| [Wireless CarPlay SmartBox for Jaguar/Land Rover Bosch systems](https://www.amazon.com/dp/B0BXDH2D4S?tag=tylerboni-20) | $349.99 |
-| [Automotive vacuum hose and connector assortment](https://www.amazon.com/dp/B0D5VKJD6N?tag=tylerboni-20) | $19.99 |
-| [Camshaft alignment and fuel pump/injector tool kit](https://www.amazon.com/dp/B0DQ87DG27?tag=tylerboni-20) | $82.95 |
-| [Continental 4060967 six-rib belt, 96.7 in](https://www.amazon.com/dp/B000C36BN0?tag=tylerboni-20) | $20.40 |
-| [LR117568 Jaguar/Land Rover thermostat housing assembly](https://www.amazon.com/dp/B0GRGVKYQ4?tag=tylerboni-20) | $44.99 |
-
-**Documented purchase subtotal: $6,058.22.** Includes the donor engine and all priced entries above. The export does not show subsequent returns or refunds.
+**Documented purchase subtotal: $5,003.31** Includes the donor engine and all priced entries above. The export does not show subsequent returns or refunds.

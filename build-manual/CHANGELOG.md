@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-23
+
+- Removed the TIG welder and pre-swap Jaguar purchases from the LS swap parts guide and recalculated the purchase subtotal.
+
 ## 2026-11-22
 
 - Added Amazon order-history prices and affiliate links for swap parts, tools, fabrication supplies, and original Jaguar purchases. Recorded purchase-only entries separately from the documented build configuration.
