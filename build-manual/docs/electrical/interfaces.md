@@ -13,6 +13,21 @@ I'm using a **GM E38 ECM** with the Jaguar wiring and electronics.
 
 The exact start-input connector pin and CAN payload aren't documented yet. **Do not ground a wire just because its color matches.** Identify the circuit and connector cavity first.
 
+## Accelerator pedal wiring
+
+The Jaguar accelerator pedal worked with the GM E38 in my test. This is the wire color map from my wiring notes for the 2015 F-Type and 2007 Yukon Denali donor harness.
+
+| Circuit | Jaguar wire | GM wire |
+| --- | --- | --- |
+| APP 1 5 V reference | Green/Orange | White/Black |
+| APP 1 signal | Yellow/Orange | Dark Blue |
+| APP 1 low reference | Violet/Green | Brown |
+| APP 2 5 V reference | Blue/Gray | Tan |
+| APP 2 signal | Blue/White | Light Blue |
+| APP 2 low reference | Yellow | Purple |
+
+Connector cavity assignments still need verification. Before splicing, confirm each circuit against the connector diagrams for both harnesses. With the engine off, log both APP channels through a full pedal sweep before enabling throttle operation.
+
 ## Still working on
 
 - Starter control and Park/Neutral interlock

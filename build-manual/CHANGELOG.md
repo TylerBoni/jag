@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-11-24
+
+- Added the Jaguar-to-GM accelerator pedal wire color map from the swap wiring notes.
+
 ## 2026-11-23
 
 - Added the three ICT Billet Corvette-spacing accessory brackets with product links and prices paid.
