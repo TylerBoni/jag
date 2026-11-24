@@ -6,7 +6,7 @@ Builder-specified configuration is authoritative. Mark an assertion **UNCONFIRME
 | --- | --- | --- | --- |
 | E-001 | TESTED | Jaguar accelerator pedal worked with GM E38 | [Wiring notes list APP circuits and colors](docs/electrical/interfaces.md#accelerator-pedal-wiring). Connector cavities, sweep voltages and plausibility response still need verification. |
 | E-002 | TESTED | Starter-only cranking without plugs produced ~20 psi indicated oil pressure | Instrument, cranking RPM, oil temperature, remote oil filter routing and hot pressure unknown |
-| E-003 | TESTED | Grounding orange/black wire changed E38 start-related behavior; one CAN signal was sufficient in the observed test | Identify connector/cavity and electrical function; isolate effect of CAN message and independent PRNDL interlock |
+| E-003 | TESTED | Grounding the orange/black park-switch wire at E38 pin 1 enabled starter relay operation with the tested CAN crank request | E38 connector designation and exact CAN payload still need to be recorded. The installed Park/Neutral switch and starter inhibit outside Park or Neutral still need testing. |
 | E-004 | TESTED (transmit interface log) | `replay_cold_start.py` selected 56 frames of CAN ID `0x1F1`; board said `REPLAY DONE sent=56 drop=0` | No demonstration of receiving-module acceptance, actual payload, timings, or cranking action |
 | E-005 | TESTED (bench) | Donor fuel-system bench recorded 57.9 psi | Test geometry and applicability to installed fuel system unknown |
 | E-006 | RESEARCH | E38 X1 cavities 27/28 suggested for CAN | Check exact ECM service/OS and harness drawings before connection |

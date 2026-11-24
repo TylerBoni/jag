@@ -2,6 +2,8 @@
 
 ## 2026-11-24
 
+- Documented the E38 pin 1 park-switch input, starter relay test, and planned Park/Neutral switch wiring.
+
 - Added the Jaguar-to-GM accelerator pedal wire color map from the swap wiring notes.
 
 ## 2026-11-23

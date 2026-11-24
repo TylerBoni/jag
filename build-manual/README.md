@@ -29,7 +29,7 @@ This repository also contains the tools I've used for reverse engineering:
 
 - The Jaguar accelerator pedal works with the GM E38.
 - I measured approximately **20 psi oil pressure** while cranking with the spark plugs removed.
-- Grounding the orange/black wire changed the E38 starting behavior. The exact circuit and CAN start message still need to be documented before this becomes a wiring procedure.
+- Grounding the orange/black park-switch wire at E38 pin 1 enabled the starter relay during the crank-request test. I’ll wire that input to a Park/Neutral switch for the installed starter interlock.
 - My STM32 interface transmitted **56 frames on CAN ID `0x1F1`** with no reported drops. That log confirms transmission, not the E38's response.
 
 These are results of individual tests, not proof that the entire swap is ready to drive.

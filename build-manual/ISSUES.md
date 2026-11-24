@@ -2,7 +2,7 @@
 
 | Priority | ID | Problem | Completion evidence |
 | --- | --- | --- | --- |
-| CRITICAL | I-001 | Starter, brake and Park/Neutral safety | Exact pin and circuit map; hardwired/validated PRNDL; timeout and invalid-state abort |
+| CRITICAL | I-001 | Starter, brake and Park/Neutral safety | Record the E38 connector designation for the pin 1 park-switch input, wire and validate the Park/Neutral switch, and verify timeout and invalid-state abort |
 | CRITICAL | I-002 | ZF8 transmission integration | Identified CAN torque messages, fail state and controlled shift log |
 | CRITICAL | I-003 | Jaguar APP to GM E38 throttle safety | Both sensor channel voltage curves, loss/short faults, limp behavior |
 | CRITICAL | I-004 | Remote oil filtration integrity | Confirmed flow arrows, filter bypass, pressure sensors, leak/temperature tests |

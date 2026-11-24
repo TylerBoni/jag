@@ -8,10 +8,10 @@ I'm using a **GM E38 ECM** with the Jaguar wiring and electronics.
 | --- | --- |
 | Accelerator pedal | Jaguar pedal works with the E38 |
 | Brake signal | Measured about 1.5 V with brake applied and short 12 V pulses at transitions |
-| Start-related input | Grounding an orange/black wire changed the E38 starting behavior |
+| Park/Neutral input | Grounding the orange/black wire at GM E38 pin 1 enabled starter relay operation during the crank-request test |
 | Fuel pump bench | Measured 57.9 psi using the donor fuel-pump control setup |
 
-The exact start-input connector pin and CAN payload aren't documented yet. **Do not ground a wire just because its color matches.** Identify the circuit and connector cavity first.
+On the donor harness, the orange/black wire at E38 pin 1 normally goes to the park switch. I grounded it during the test. The installed wiring will use a Park/Neutral switch to ground the input only in Park or Neutral. The E38 connector designation and exact CAN payload still need to be recorded.
 
 ## Accelerator pedal wiring
 
@@ -30,7 +30,7 @@ Connector cavity assignments still need verification. Before splicing, confirm e
 
 ## Still working on
 
-- Starter control and Park/Neutral interlock
+- Install and test the Park/Neutral switch and starter interlock
 - Complete Jaguar-to-E38 pin map
 - OBD-II wiring
 - Jaguar alternator charging control
